@@ -1,0 +1,329 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,900);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.row {
+    overflow: auto;
+    padding: 10px;
+}
+.row > ::before {
+    content: '';
+    display: block;
+    clear: both;
+}
+.row > ::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.row div[class*='col-']:first-of-type {
+    padding-left: 0;
+}
+.row div[class*='col-']:last-of-type {
+    padding-right: 0;
+}
+.row.no-padding {
+    padding: 0 !important;
+}
+
+.table {
+    display: table;
+    width: 100%;
+}
+.table .table-cell {
+    display: table-cell;
+}
+.table .table-cell[class*='col-'] {
+    float: none;
+}
+
+[class*='col-'] {
+    float: left;
+    padding: 0 10px;
+}
+
+.col-100 {
+    width: 100%;
+    padding: 0 !important;
+}
+
+.col-95 {
+    width: 95%;
+}
+
+.col-90 {
+    width: 90%;
+}
+
+.col-85 {
+    width: 85%;
+}
+
+.col-80 {
+    width: 80%;
+}
+
+.col-75 {
+    width: 75%;
+}
+
+.col-70 {
+    width: 70%;
+}
+
+.col-65 {
+    width: 65%;
+}
+
+.col-60 {
+    width: 60%;
+}
+
+.col-55 {
+    width: 55%;
+}
+
+.col-50 {
+    width: 50%;
+}
+
+.col-45 {
+    width: 45%;
+}
+
+.col-40 {
+    width: 40%;
+}
+
+.col-35 {
+    width: 35%;
+}
+
+.col-1-3 {
+    width: 33.333%;
+}
+
+.col-30 {
+    width: 30%;
+}
+
+.col-25 {
+    width: 25%;
+}
+
+.col-20 {
+    width: 20%;
+}
+
+.col-1-6 {
+    width: 16.666%;
+}
+
+.col-15 {
+    width: 15%;
+}
+
+.col-10 {
+    width: 10%;
+}
+
+.col-5 {
+    width: 5%;
+}
+
+html {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #FFFEFF;
+}
+
+#main-background {
+    top: 0;
+    left: 0;
+    z-index: 1;
+    position: fixed;
+    min-width: 100%;
+    width: 100%;
+}
+
+#logo {
+    width: 100%;
+    max-width: 100%;
+}
+
+.pad {
+    position: relative;
+    padding: 50px 20px;
+    z-index: 99;
+}
+
+#register {
+    max-width: 700px;
+    margin: 20px auto;
+}
+#register .inner {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    border-radius: 4px;
+}
+#register .inner .left {
+    vertical-align: top;
+    padding: 0 !important;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+#register .inner .left .top {
+    color: #FFFFFE;
+    padding: 20px;
+    background-color: #1d1520;
+}
+
+h4 {
+    font-weight: 400;
+    font-size: 1.25em;
+}
+
+#bottom-links {
+    padding: 10px;
+    font-size: .8em;
+    background-color: #1d1520;
+    text-align: center;
+}
+
+#bottom-links p {
+    color: #aaa;
+    display: inline-block;
+}
+
+#bottom-links a {
+    color: #839db5;
+}
+
+#image-container {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#register .inner .left #image-container img {
+    max-width: 100%;
+    width: 100%;
+}
+#register .inner .left .bottom {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+#register .inner .left .bottom h1 {
+    color: #323233;
+    font-size: 2.25em;
+    margin-bottom: 20px;
+}
+#register .inner .left .bottom p {
+    font-size: 1em;
+    color: #545454;
+    line-height: 1.5em;
+}
+#register .inner .right {
+    vertical-align: middle;
+}
+#register .inner .right #invitation {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.92);
+    -webkit-border-radius: 0 0 3px 3px;
+    -moz-border-radius: 0 0 3px 3px;
+    -ms-border-radius: 0 0 3px 3px;
+    border-radius: 0 0 3px 3px;
+    overflow: auto;
+}
+#register .inner .right #invitation h2 {
+    color: #323232;
+    text-align: center;
+    font-size: 1.35em;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+#register .inner .right #invitation form input {
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+}
+
+#register .inner .right #invitation a {
+    background-color: #3CB372;
+    padding: 10px;
+    color: #FFF;
+    font-weight: 300;
+    font-size: .9em;
+    text-transform: uppercase;
+    text-align: center;
+    border: none;
+    -webkit-appearance: none;
+    display: block;
+    text-decoration: none;
+}
+#register .inner .right #invitation a:hover {
+    opacity: .85;
+    cursor: pointer;
+}
+#register .inner .right #invitation .bonus {
+    margin-top: 40px;
+    border: 1px dashed rgba(0, 0, 0, 0.15);
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+}
+#register .inner .right #invitation .bonus h3 {
+    text-transform: uppercase;
+    color: #3CB371;
+    font-size: .9em;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+#register .inner .right #invitation .bonus p {
+    font-size: .8em;
+    line-height: 1.5em;
+    color: #545454;
+}
+
+/*.fat-bottom, #register .inner .left, #register .inner .right #invitation {*/
+    /*border-bottom: 3px solid rgba(0, 0, 0, 0.15);*/
+    /*box-shadow: 0 0 0 1px rgba(0,0,0,.125);*/
+/*}*/
+
+@media screen and (max-width: 735px) {
+    #register {
+        margin: 0 auto;
+    }
+    #register .table {
+        display: block;
+    }
+    #register .table .table-cell {
+        display: block;
+    }
+    #register .table .left, #register .table .right {
+        width: 100%;
+    }
+    #register .table .left {
+        margin-bottom: 20px;
+    }
+    #register .table .right {
+        padding-left: 0;
+    }
+}
