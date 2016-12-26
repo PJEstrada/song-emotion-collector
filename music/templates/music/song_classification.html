@@ -1,0 +1,139 @@
+{% extends "music/base.html" %}
+{% load static %}
+{% block content %}
+    <link type="text/css" href="{% static "css/blue.monday/css/jplayer.blue.monday.css"%}" rel="stylesheet" />
+
+    <div class="background song-classification-section">
+        <div class="content-panel">
+            
+            <div class="song-number-panel">
+                <ul>
+                    {% for i in num_songs %}
+                        {% if i == song_number %}
+                            <span class="selected">{{ i }}</span>
+
+                        {% else %}
+                            <span class="yellow">{{ i }}</span>
+                        {% endif %}
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="music-player-container">
+                <div id="jquery_jplayer_1" class="jp-jplayer"></div>
+                <div id="jp_container_1" class="jp-audio" role="application" aria-label="media player">
+                  <div class="jp-type-single">
+                    <div class="jp-gui jp-interface">
+                      <div class="jp-controls">
+                        <button class="jp-play" role="button" tabindex="0">play</button>
+                        <button class="jp-stop" role="button" tabindex="0">stop</button>
+                      </div>
+                      <div class="jp-progress">
+                        <div class="jp-seek-bar">
+                          <div class="jp-play-bar"></div>
+                        </div>
+                      </div>
+                      <div class="jp-volume-controls">
+                        <button class="jp-mute" role="button" tabindex="0">mute</button>
+                        <button class="jp-volume-max" role="button" tabindex="0">max volume</button>
+                        <div class="jp-volume-bar">
+                          <div class="jp-volume-bar-value"></div>
+                        </div>
+                      </div>
+                      <div class="jp-time-holder">
+                        <div class="jp-current-time" role="timer" aria-label="time">&nbsp;</div>
+                        <div class="jp-duration" role="timer" aria-label="duration">&nbsp;</div>
+                        <div class="jp-toggles">
+                          <button class="jp-repeat" role="button" tabindex="0">repeat</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="jp-details">
+                      <div class="jp-title" aria-label="title">&nbsp;</div>
+                    </div>
+                    <div class="jp-no-solution">
+                      <span>Update Required</span>
+                      To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <div class="mood-options-form">
+                <h2 class="help-text">En tu opinion...¿Qué emoción tiene esta canción?</h2>
+                <form method="post" class="mood-form" action="{% url "song_classification" %}">
+                    {% csrf_token %}
+                    <input type="hidden" name="participant_pk" value="{{ participant.pk }}">
+                    <input type="hidden" name="song_number" value="{{ song_number }}">
+                    <input type="hidden" name="song_pk" value="{{ song.pk }}">
+                    <input type="hidden" id="mood" name="mood" value="">
+
+                    <div class="mood-option-container" val="alegria">
+                        <p>Alegria</p>
+                        <img height="250px"  src="{% static "images/happy.png" %}" alt="">
+                    </div>
+                    <div class="mood-option-container" val="tristeza">
+                        <p>Trizteza</p>
+                        <img height="250px" src="{% static "images/happy.png" %}" alt="">
+                    </div>
+                    <div class="mood-option-container" val="enojo">
+                        <p>Enojo</p>
+                        <img height="250px" src="{% static "images/happy.png" %}" alt="">
+
+                    </div>
+                    <div class="mood-option-container" val="ansiedad">
+                        <p>Ansiedad</p>
+                        <img height="250px" src="{% static "images/happy.png" %}" alt="">
+
+                    </div>
+                    <div class="mood-option-container" val="miedo">
+                        <p>Miedo</p>
+                        <img height="250px" src="{% static "images/happy.png" %}" alt="">
+                    </div>
+                     <div class="button-container">
+                        <button disabled
+                            class="button-send-classification disabled"
+                            type="submit"> Enviar </button>
+                     </div>
+
+                </form>
+
+            </div>
+
+        </div>
+    
+    </div>
+    <script type="text/javascript">
+        $(document).ready(function(){
+          $("#jquery_jplayer_1").jPlayer({
+            ready: function () {
+              $(this).jPlayer("setMedia", {
+                title: "TEST",
+                mp3: '{{ song.audio_file.url }}',
+                wav: '{{ song.audio_file.url }}'
+              });
+            },
+            cssSelectorAncestor: "#jp_container_1",
+            swfPath: "{% static "js/jquery.jplayer.swf" %}",
+            supplied: "mp3, wav",
+            useStateClassSkin: true,
+            autoBlur: false,
+            smoothPlayBar: true,
+            keyEnabled: true,
+            remainingDuration: true,
+            toggleDuration: true
+          });
+        });
+
+        $(".mood-option-container").click(function(){
+            $(".button-send-classification").removeClass("disabled");
+            $(".button-send-classification").prop('disabled', false);
+            $(".mood-option-container").removeClass("selected");
+            $(this).addClass("selected");
+            var value = $(this).attr("val");
+            $("#mood").attr("value", value);
+        })
+    </script>
+{% endblock %}
+
+
+
