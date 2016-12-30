@@ -1,0 +1,157 @@
+{
+  "id": "lp-launch101",
+  "name": "Simple Email Capture",
+  "mobile": true,
+  "notes": "Updated footer links",
+  "syntax": 4,
+  "version": 3.01,
+  "style": {
+    "replacements": [
+      {
+        "type": "color",
+        "name": "Bonus Heading",
+        "find": "#3CB371"
+      },
+      {
+        "type": "color",
+        "name": "Button color",
+        "find": "#3CB372"
+      },
+      {
+        "type": "color",
+        "name": "Right side headline color",
+        "find": "#323232"
+      },
+      {
+        "type": "color",
+        "name": "Left side headline color",
+        "find": "#323233"
+      },
+      {
+        "type": "color",
+        "name": "Copy color",
+        "find": "#545454"
+      },
+      {
+        "type": "color",
+        "name": "Tab background color",
+        "find": "#1d1520"
+      },
+      {
+        "type": "color",
+        "name": "Tab text color",
+        "find": "#FFFFFE"
+      },
+      {
+        "type": "color",
+        "name": "Background color (if you delete image)",
+        "find": "#FFFEFF"
+      },
+      {
+        "type": "color",
+        "name": "Footer link color",
+        "find": "#839db5"
+      }
+    ]
+  },
+  "elements": [
+    {
+      "id": "main-container",
+      "name": "Main Content",
+      "type": "container"
+    },
+    {
+      "id": "sidebar-container",
+      "name": "Sidebar",
+      "type": "container"
+    },
+    {
+      "id": "bottom-links-container",
+      "name": "Footer",
+      "type": "container"
+    },
+    {
+      "id": "tab-title",
+      "name": "Tab title",
+      "type": "text"
+    },
+    {
+      "id": "tab-container",
+      "name": "Top tab area",
+      "type": "container"
+    },
+    {
+      "id": "main-background",
+      "name": "Primary background image",
+      "type": "background-image",
+      "comment": "Choose a background image.",
+      "data": {
+        "max-width": 1800,
+        "max-height": 1200
+      }
+    },
+    {
+      "id": "logo",
+      "name": "Large logo",
+      "type": "image",
+      "comment": "Upload your logo here",
+      "data": {
+        "max-width": 500
+      }
+    },
+    {
+      "id": "sales-copy",
+      "name": "Sales copy",
+      "type": "text"
+    },
+    {
+      "id": "main-headline",
+      "name": "Headline",
+      "type": "text"
+    },
+    {
+      "id": "sidebar-heading",
+      "name": "Sidebar heading",
+      "type": "text"
+    },
+    {
+      "id": "bonus-heading",
+      "name": "Bonus heading",
+      "type": "text"
+    },
+    {
+      "id": "bonus-copy",
+      "name": "Bonus copy",
+      "type": "text"
+    },
+    {
+      "id": "conversion",
+      "name": "Primary conversion link",
+      "type": "link",
+      "data": {
+        "href": "#/optin"
+      }
+    },
+    {
+      "id": "extra-sell",
+      "name": "Bonus area",
+      "type": "container"
+    },
+    {
+      "id": "copyright",
+      "name": "Footer text",
+      "type": "text"
+    },
+    {
+      "id": "footer-link1",
+      "name": "First footer link",
+      "type": "link"
+    },
+    {
+      "id": "footer-link2",
+      "name": "Second footer link",
+      "type": "link"
+    }
+  ],
+  "variables": {}
+}
