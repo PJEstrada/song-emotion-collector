@@ -80,8 +80,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/music_emotion_collector/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="704">
-              <caret line="140" column="33" selection-start-line="140" selection-start-column="33" selection-end-line="140" selection-end-column="33" />
+            <state relative-caret-position="578">
+              <caret line="133" column="15" selection-start-line="133" selection-start-column="15" selection-end-line="133" selection-end-column="57" />
               <folding>
                 <element signature="e#322#331#0" expanded="true" />
               </folding>
@@ -737,8 +737,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/music_emotion_collector/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="140" column="33" selection-start-line="140" selection-start-column="33" selection-end-line="140" selection-end-column="33" />
+        <state relative-caret-position="578">
+          <caret line="133" column="15" selection-start-line="133" selection-start-column="15" selection-end-line="133" selection-end-column="57" />
           <folding>
             <element signature="e#322#331#0" expanded="true" />
           </folding>

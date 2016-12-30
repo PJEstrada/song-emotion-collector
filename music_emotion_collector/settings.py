@@ -131,7 +131,7 @@ STATICFILES_FINDERS = (
 )
 
 # Not used if USE_S
-STATIC_ROOT = '/home/ubuntu/static'
+STATIC_ROOT = '/home/ubuntu/song-emotion-collector/static'
 STATIC_URL = '/static/'
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
