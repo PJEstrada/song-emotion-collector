@@ -123,20 +123,23 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.9/howto/static-files/
 
 # Statics and media
-STATICFILES_DIRS = (
-    path.join(PROJECT_ROOT_DIR, 'static'),
-)
+
 
 STATICFILES_FINDERS = (
     'django.contrib.staticfiles.finders.FileSystemFinder',
     'django.contrib.staticfiles.finders.AppDirectoriesFinder',
 )
 
-# Not used if USE_S3
+# Not used if USE_S
+STATIC_ROOT = '/home/ubuntu/static'
 STATIC_URL = '/static/'
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
-
+STATICFILES_DIRS = (
+    path.join(STATIC_ROOT, 'css'),
+    path.join(STATIC_ROOT, 'images'),
+    path.join(STATIC_ROOT, 'js'),
+)
 # Frontend widget values
 # 0-Keep original, 1-Mono, 2-Stereo
 CHANNEL_TYPE_VALUE = 0
