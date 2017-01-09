@@ -414,6 +414,7 @@ header#logo h1 a {
 .banner-info {
     margin: 19em auto 0;
     width: 35%;
+    text-align: center;
 }
 
 button {
@@ -1932,7 +1933,8 @@ li.col-md-4.grid {
 		transform: translate(179px, 0);
 	}
 	.banner-info h3 span {
-		font-size: 78px;
+		font-size: 55px;
+        text-align: center;
 	}
 	.banner-info h3 {
 		font-size: 38px;
