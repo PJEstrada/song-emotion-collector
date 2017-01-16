@@ -1,10 +1,83 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-THANK YOU :)
-</body>
-</html>
+{% extends "music/base.html" %}
+{% load static %}
+{% load staticfiles %}
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+{% block content %}
+<!-- banner -->
+<div id="main-wrapper">
+	<div id="top">
+		<a href="#" id="sidebar-button"></a>
+		<header id="logo">
+			<div id="home" class="grid__item color-9">
+				<h1><a class="link link--ilin" href=""><span> Emusic-</span><span>UVG</span></a></h1>
+			</div>
+		</header>
+		<div class="search-box">
+			<form action="javascript:void(0);" method="get">
+
+			<fieldset>
+
+				<ul class="toolbar clearfix">
+                    {% comment %}
+					<li><input type="search" id="search" placeholder="What are you looking for?"></li>
+					<li><button type="submit" id="btn-search"><span class="fontawesome-search"></span></button></li>
+                    {% endcomment %}
+				</ul>
+
+			</fieldset>
+
+			</form>
+		</div>
+		<script>
+			( function() {
+
+				$('#btn-search').on('click', function(e) {
+
+					e.preventDefault();
+					$('#search').animate({width: 'toggle'}).focus();
+
+				});
+
+			} () );
+		</script>
+
+	</div>
+	<!-- Content -->
+	<div id="content">
+		<div id="fullscreen-slider" class="swiper-container">
+
+				<div class="banner-text">
+					<div class="banner-info">
+						<h3><span> ¡ Gracias por tu ayuda ! </span> </h3>
+
+                        <h2 class="help-text">
+                            Las clasificaciones que has realizados han sido guardadas.
+                        </h2>
+					</div>
+
+
+				</div>
+
+
+		</div>
+	</div>
+
+</div>
+{% endblock %}
+
+
+{% block extra_scripts %}
+<!-- for bootstrap working -->
+<script src="{% static "js/bootstrap.js" %}"></script>
+<!-- //for bootstrap working -->
+
+<!-- smooth scrolling -->
+	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+<!-- //smooth scrolling -->
+
+{% endblock %}

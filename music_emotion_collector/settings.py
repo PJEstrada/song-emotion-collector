@@ -131,19 +131,19 @@ STATICFILES_FINDERS = (
 )
 
 # Not used if USE_S
-STATIC_ROOT = '/home/ubuntu/song-emotion-collector/static'
+#STATIC_ROOT = '/home/ubuntu/song-emotion-collector/static/'
 STATIC_URL = '/static/'
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
-STATICFILES_DIRS = (
-    path.join(STATIC_ROOT, 'css'),
-    path.join(STATIC_ROOT, 'images'),
-    path.join(STATIC_ROOT, 'js'),
-)
 #STATICFILES_DIRS = (
-#    os.path.join(BASE_DIR, 'static'),
-#
+#    path.join(STATIC_ROOT, 'css'),
+#    path.join(STATIC_ROOT, 'images'),
+#    path.join(STATIC_ROOT, 'js'),
 #)
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'static'),
+
+)
 # Frontend widget values
 # 0-Keep original, 1-Mono, 2-Stereo
 CHANNEL_TYPE_VALUE = 0
