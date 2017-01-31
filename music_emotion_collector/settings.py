@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
 Django settings for music_emotion_collector project.
 
@@ -17,18 +18,27 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # Media files
 PROJECT_ROOT_DIR = path.abspath(path.dirname(path.dirname(__file__)))
 
+UVG_STUDENT = False
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.9/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'bycm46e_91f=ihw@!6!8bf0h*a625+z#lp5f(p^u6^)h%(e7=%'
-
+CLOUD_FRONT = "http://d12s6f4g9u594d.cloudfront.net/"
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+# Activate for S3 Storage
+
 ALLOWED_HOSTS = ['ec2-54-187-236-200.us-west-2.compute.amazonaws.com','localhost']
-
-
+AWS_STORAGE_BUCKET_NAME = 'music-emotions'
+AWS_ACCESS_KEY_ID = os.getenv('MUSIC_EMOTIONS_ID', 0)
+AWS_SECRET_ACCESS_KEY = os.getenv('MUSIC_EMOTIONS_SECRET', 0)
+AWS_S3_CUSTOM_DOMAIN = '%s.s3.amazonaws.com' % AWS_STORAGE_BUCKET_NAME
+STATICFILES_LOCATION = 'static'
+STATICFILES_STORAGE = 'music.custom_storages.StaticStorage'
+STATIC_URL = "https://%s/%s/" % (AWS_S3_CUSTOM_DOMAIN, STATICFILES_LOCATION)
+S3_URL = "https://%s/" % (AWS_S3_CUSTOM_DOMAIN)
 # Application definition
 
 INSTALLED_APPS = [
@@ -39,9 +49,16 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'music',
-    'audiofield'
+    'audiofield',
+    'storages',
+    'django_countries',
 ]
 
+AWS_HEADERS = {  # see http://developer.yahoo.com/performance/rules.html#expires
+    'Expires': 'Thu, 31 Dec 2099 20:00:00 GMT',
+    'Cache-Control': 'max-age=94608000',
+
+}
 MIDDLEWARE_CLASSES = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',

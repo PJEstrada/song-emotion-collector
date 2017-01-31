@@ -1,0 +1,102 @@
+{% extends "music/base.html" %}
+{% load staticfiles %}
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+{% block content %}
+<!-- banner -->
+<div id="main-wrapper">
+	<div id="top">
+		<header id="logo">
+			<div id="home" class="grid__item color-9">
+				<h1><a class="link link--ilin" href=""><span> Emusic-</span><span>UVG</span></a></h1>
+			</div>
+            <div class="logo-container">
+                    <img height="300" src="{% static "images/logo_uvg.png" %}" alt="">
+            </div>
+
+		</header>
+		<div class="search-box">
+			<form action="javascript:void(0);" method="get">
+
+			<fieldset>
+
+				<ul class="toolbar clearfix">
+                    {% comment %}
+					<li><input type="search" id="search" placeholder="What are you looking for?"></li>
+					<li><button type="submit" id="btn-search"><span class="fontawesome-search"></span></button></li>
+                    {% endcomment %}
+				</ul>
+
+			</fieldset>
+
+			</form>
+		</div>
+		<script>
+			( function() {
+
+				$('#btn-search').on('click', function(e) {
+
+					e.preventDefault();
+					$('#search').animate({width: 'toggle'}).focus();
+
+				});
+
+			} () );
+		</script>
+
+	</div>
+
+
+	<!-- Content -->
+	<div id="content">
+
+
+		<div id="fullscreen-slider" class="swiper-container">
+
+				<div class="banner-text">
+					<div class="banner-info">
+						<h3><span>Consentimiento Informado: </span></h3>
+				</div>
+		</div>
+        <div class="policy">
+            <form method="post" action="{% url "start_classification" %}">
+                Por este medio se hace de su conocimiento, que el estudiante Pablo José Estrada Cordón
+                con carné 12121 de la Carrera en Ciencias de la Computación y Tecnologías de la Información de la Universidad del Valle de Guatemala, está realizando un estudio de para trabajo de graduación supervisado por el asesor Ing. Samuel Chavez
+                y el director del departamento de Ciencias de la Computación, Ing. Douglas Barrios.
+                <br>
+                Este trabajo implica la clasificación de 10 canciones con una etiqueta que representa una emoción
+                básica, con el propósito de crear un conjunto de datos para el entrenamiento de un clasificador
+                de música con técnicas de inteligencia artificial. Además se estará tomando el tiempo y la fecha
+                en la que la clasificación fue realizada. Dicho esto, se solicita su autorización para que la
+                información recopilada pueda ser utilizada para el trabajo de graduación del estudiante Pablo
+                José Estrada Cordón.
+                <br>
+                Todos los datos personales (Nombres, apellidos, edad, correo eléctrónico, características físicas
+                y psicológicas del sujeto), serán utilizados únicamente para este estudio y no existirá riesgo
+                alguno de su divulgación o uso para propósitos ajenos al mismo.
+                <br>
+                Se agradece su apoyo y si autoriza la participación por favor continue llenando el formulario de la
+                pagina de inicio.
+            </form>
+        </div>
+        <h2 class="center-text link-return"><a href="{% url "index" %}">Regresar al inicio</a></h2>
+	</div>
+
+</div>
+{% endblock %}
+
+
+{% block extra_scripts %}
+<!-- for bootstrap working -->
+<script src="{% static "js/bootstrap.js" %}"></script>
+<!-- //for bootstrap working -->
+
+<!-- smooth scrolling -->
+	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+<!-- //smooth scrolling -->
+
+{% endblock %}

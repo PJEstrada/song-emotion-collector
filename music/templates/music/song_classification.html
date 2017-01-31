@@ -1,5 +1,5 @@
 {% extends "music/base.html" %}
-{% load static %}
+{% load staticfiles %}
 {% block content %}
     <link type="text/css" href="{% static "css/blue.monday/css/jplayer.blue.monday.css"%}" rel="stylesheet" />
 
@@ -59,39 +59,40 @@
             </div>
 
             <div class="mood-options-form">
-                <h2 class="help-text">En tu opinion...¿Qué emoción tiene esta canción?</h2>
+                <h2 class="help-text">En su opinion...¿Qué emoción tiene esta canción?</h2>
                 <form method="post" class="mood-form" action="{% url "song_classification" %}">
                     {% csrf_token %}
                     <input type="hidden" name="participant_pk" value="{{ participant.pk }}">
                     <input type="hidden" name="song_number" value="{{ song_number }}">
                     <input type="hidden" name="song_pk" value="{{ song.pk }}">
                     <input type="hidden" id="mood" name="mood" value="">
-
+                    <input type="hidden" id="time" name="time" value="0">
                     <div class="mood-option-container" val="alegria">
                         <p>Alegria</p>
-                        <img height="250px"  src="{% static "images/happy.png" %}" alt="">
+                        <img height="250px"  src="{% static "images/joy.png" %}" alt="">
                     </div>
                     <div class="mood-option-container" val="tristeza">
                         <p>Trizteza</p>
-                        <img height="250px" src="{% static "images/happy.png" %}" alt="">
+                        <img height="250px" src="{% static "images/sadness.png" %}" alt="">
                     </div>
                     <div class="mood-option-container" val="enojo">
                         <p>Enojo</p>
-                        <img height="250px" src="{% static "images/happy.png" %}" alt="">
-
-                    </div>
-                    <div class="mood-option-container" val="ansiedad">
-                        <p>Ansiedad</p>
-                        <img height="250px" src="{% static "images/happy.png" %}" alt="">
+                        <img height="250px" src="{% static "images/anger.png" %}" alt="">
 
                     </div>
                     <div class="mood-option-container" val="miedo">
                         <p>Miedo</p>
-                        <img height="250px" src="{% static "images/happy.png" %}" alt="">
+                        <img height="250px" src="{% static "images/fear.png" %}" alt="">
+
+                    </div>
+                    <div class="mood-option-container" val="neutral">
+                        <p>Neutral</p>
+                        <img height="250px" src="{% static "images/neutral.png" %}" alt="">
                     </div>
                      <div class="button-container">
                         <button disabled
                             class="button-send-classification disabled"
+                            id="send-classification"
                             type="submit"> Enviar </button>
                      </div>
 
@@ -103,13 +104,33 @@
 
     </div>
     <script type="text/javascript">
+        function decodeHTML(s) {
+            var map = {"gt":">" /* , … */};
+            return s.replace(/&(#(?:x[0-9a-f]+|\d+)|[a-z]+);?/gi, function($0, $1) {
+                if ($1[0] === "#") {
+                    return String.fromCharCode($1[1].toLowerCase() === "x" ? parseInt($1.substr(2), 16)  : parseInt($1.substr(1), 10));
+                } else {
+                    return map.hasOwnProperty($1) ? map[$1] : $0;
+                }
+            });
+        };
+
+        var start = window.performance.now();
+        jQuery("#send-classification").click(function(){
+            var end = window.performance.now();
+            var time = end-start;
+            jQuery("#time").val(time);
+            jQuery(this).submit();
+
+
+        });
         $(document).ready(function(){
           $("#jquery_jplayer_1").jPlayer({
             ready: function () {
               $(this).jPlayer("setMedia", {
-                title: "TEST",
-                mp3: '{{ song.audio_file.url }}',
-                wav: '{{ song.audio_file.url }}'
+                title: "Escuha la canción!",
+                mp3: decodeHTML('{{ song.cloud_front_path }}'),
+                wav: decodeHTML('{{ song.cloud_front_path }}')
               });
             },
             cssSelectorAncestor: "#jp_container_1",
@@ -118,6 +139,7 @@
             useStateClassSkin: true,
             autoBlur: false,
             smoothPlayBar: true,
+            preload:"auto",
             keyEnabled: true,
             remainingDuration: true,
             toggleDuration: true

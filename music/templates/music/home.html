@@ -1,5 +1,4 @@
 {% extends "music/base.html" %}
-{% load static %}
 {% load staticfiles %}
 <!--
 Author: W3layouts
@@ -15,6 +14,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div id="home" class="grid__item color-9">
 				<h1><a class="link link--ilin" href=""><span> Emusic-</span><span>UVG</span></a></h1>
 			</div>
+            <div class="logo-container">
+                    <img height="300" src="{% static "images/logo_uvg.png" %}" alt="">
+            </div>
+
 		</header>
 		<div class="search-box">
 			<form action="javascript:void(0);" method="get">
@@ -46,51 +49,163 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		</script>
 
 	</div>
+
+
 	<!-- Content -->
 	<div id="content">
+
+
 		<div id="fullscreen-slider" class="swiper-container">
 
 				<div class="banner-text">
 					<div class="banner-info">
-						<h3>Ayudanos a construir <span>un clasificador </span> de música</h3>
+						<h3>Ayudenos a construir <span>un clasificador </span> de música</h3>
 
-                        <h2 class="help-text">Nos gustaría que nos dieras tu opinión sobre las canciones que te enseñaremos
-                            a continuación. Todos los datos que recabemos serán únicamente para propósitos
-                            académicos.
+                        <h2 class="help-text">
+
+                            Nos gustaría que nos diera su opinión sobre las canciones que le enseñaremos
+                            a continuación. Los datos personales recabados en este estudio será de uso estricamente
+                            confidencial y exclusio para el mismo. Continuar bajo
+                            <a class="link-return"  href="{% url "consentimiento_informado" %}">Consentimiento Informado</a>
                         </h2>
 					</div>
-                    <div class="user-form">
+				</div>
+                <h2 class="help-text">
+                    Por favor ingresa tus datos para iniciar:
+                </h2>
+                <div class="user-form">
                         <form method="post" action="{% url "start_classification" %}">
                             {% csrf_token %}
-                            <h2 class="help-text">
-                                Por favor ingresa tus datos para iniciar:
-                            </h2>
-                            <div class="input-element">
-                                 <span class="label-input">Nombres: </span> {{ participant_form.first_name }}
-                            </div>
-                            <div class="input-element">
-                                <span class="label-input">Apellidos: </span> {{ participant_form.last_name }}
-                            </div>
-                            <div class="input-element">
-                               <span class="label-input">Edad: </span>  {{ participant_form.age }}
-                            </div>
-                            <div class="input-element">
-                                <span class="label-input">Género: </span>
-                                {{ participant_form.gender }}
-                            </div>
+                            <table class="jaja">
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <span class="label-input">Nombres: </span>
+                                        </td>
+                                        <td class="input-element">
+                                            {{ participant_form.first_name }}
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <span class="label-input">Apellidos: </span>
+                                        </td>
+                                        <td class="input-element">
+                                             {{ participant_form.last_name }}
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <span class="label-input">Correo: </span>
+                                        </td>
+                                        <td class="input-element">
+                                            {{ participant_form.email }}
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <span class="label-input">Edad: </span>
+                                        </td>
+                                        <td class="input-element">
+                                           {{ participant_form.age }}
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <span class="label-input">Género: </span>
+                                        </td>
+                                        <td class="input-element">
 
+                                            {{ participant_form.gender }}
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <span class="label-input">Nivel de Escolaridad: </span>
+                                        </td>
+                                        <td class="input-element">
+
+                                            {{ participant_form.scolarity }}
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                             <span class="label-input small-select">País: </span>
+                                        </td>
+                                        <td class="input-element">
+
+                                            {{ participant_form.country }}
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <span class="label-input">Tiene conocimientos sobre teoría musical: </span>
+                                        </td>
+                                        <td class="input-element">
+
+                                            {{ participant_form.knows_music_theory }}
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <span class="label-input">Tiene algún impedimento físico: </span>
+                                        </td>
+                                        <td class="input-element">
+                                            {{ participant_form.has_physical_problem }}
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <span class="label-input">Si lo tiene, especifique: </span>
+                                        </td>
+                                        <td class="input-element">
+                                            {{ participant_form.physical_problem }}
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <span class="label-input">Tiene algún impedimento auditivo: </span>
+                                        </td>
+                                        <td class="input-element">
+                                            {{ participant_form.has_hearing_problem }}
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                             <span class="label-input">Si lo tiene, especifique: </span>
+                                        </td>
+                                        <td class="input-element">
+                                            {{ participant_form.hearing_problem }}
+                                        </td>
+                                    </tr>
+
+                                                                    <tr>
+                                        <td>
+                                            <span class="label-input">Tiene algún problema o desorden psicológico: </span>
+                                        </td>
+                                        <td class="input-element">
+                                            {{ participant_form.has_psychological_problem }}
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                             <span class="label-input">Si lo tiene, especifique: </span>
+                                        </td>
+                                        <td class="input-element">
+                                            {{ participant_form.psychological_problem }}
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
                             <button class="button-start-classification"
-                                    type="submit"> Iniciar </button>
+                                    id="send-classification"
+                                    > Iniciar </button>
 
                         </form>
 
                     </div>
-
-
-				</div>
-
-
 		</div>
+
 	</div>
 
 </div>

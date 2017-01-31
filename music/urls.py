@@ -11,6 +11,11 @@ urlpatterns = [
         name='index'
     ),
     url(
+        r'^privacy-policy',
+        views.consentimiento_informado,
+        name='consentimiento_informado'
+    ),
+    url(
         r'^classify',
         views.song_classification,
         name='song_classification'

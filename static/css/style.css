@@ -109,6 +109,12 @@ body a:hover{
 /*==========================================================*/
 /* Helper Classes
 /*==========================================================*/
+.return-link{
+    font-size: 60px;
+    color: #E4BA1A;
+    font-weight: 600;
+}
+
 .hidden {
   display: none;
 }
@@ -214,13 +220,23 @@ div#fullscreen-slider{
     -o-background-size: cover;
 }
 .input-element{
-    font-size: 2em;
+    font-size: 1.6em;
     margin-bottom: 30px;
     margin-left: 10px;
+    padding-right: 15px;
     color: black;
+}
+.input-element input{
+    width: 100%;
 }
 .user-form{
     text-align: center;
+    margin: auto;
+    max-width: 820px;
+    margin-top: 40px;
+    background-color: #E4BA1A;
+    border-radius: 50px;
+    color: white; !important
 }
 .help-text{
     color:white;
@@ -399,6 +415,11 @@ div#fullscreen-slider{
   font-size: 26px;
 }
 
+.return-link{
+    font-size: 60px;
+    color: #E4BA1A;
+    font-weight: 600;
+}
 
 
 
@@ -506,7 +527,7 @@ input::-moz-focus-inner {
     display: block;
     color: #E4BA1A;
     font-weight: 600;
-    font-size: 122px;
+    font-size: 80px;
 }
 
 /*--//slider end here--*/
@@ -1667,7 +1688,7 @@ top: 9%;
 		font-size: 49px;
 	}
 	.banner-info h3 span {
-		font-size: 96px;
+		font-size: 55px;
 	}
 	.banner-info {
 		width: 54%;
@@ -2501,22 +2522,23 @@ span.selected {
 }
 
 .label-input{
-    color: #E4BA1A;
+    color: white;
     font-weight:bold ;
 }
 
 .button-start-classification,.button-send-classification {
-    color: #E4BA1A;
+    color: white;
     font-weight: bold;
-    border: #E4BA1A;
+    border: black;
     border-style: solid;
     border-radius: 25px;
     width: 400px;
     height: 100px;
     font-size: 4.5em;
+    margin-top: 25px;
 }
 .button-start-classification:hover{
-    color: white;
+    color: #8BB308;;
     background: #E4BA1A;
     border-style: solid;
 }
@@ -2562,4 +2584,42 @@ span.selected {
 
 .mood-options-form{
     text-align: center;
+}
+
+table{
+    text-align: center;
+    border-spacing: 50px;
+    display: table;
+}
+
+td{
+    padding-top: 25px;
+    font-size: 25px;
+    padding-left: 25px;
+    padding-left: 25px;
+    display: table-cell;
+
+}
+.small-select{
+    width:50px;
+}
+
+.policy{
+    max-width: 800px;
+    background-color: #E4BA1A;
+    margin: auto;
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.center-text{
+    text-align: center;
+}
+.link-return{
+    color: #337ab7;
+    font-weight: bold;
+    margin:30px;
+    cursor: pointer;
+
 }

@@ -1,5 +1,4 @@
 {% extends "music/base.html" %}
-{% load static %}
 {% load staticfiles %}
 <!--
 Author: W3layouts
@@ -10,43 +9,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 {% block content %}
 <!-- banner -->
 <div id="main-wrapper">
-	<div id="top">
-		<a href="#" id="sidebar-button"></a>
-		<header id="logo">
-			<div id="home" class="grid__item color-9">
-				<h1><a class="link link--ilin" href=""><span> Emusic-</span><span>UVG</span></a></h1>
-			</div>
-		</header>
-		<div class="search-box">
-			<form action="javascript:void(0);" method="get">
-
-			<fieldset>
-
-				<ul class="toolbar clearfix">
-                    {% comment %}
-					<li><input type="search" id="search" placeholder="What are you looking for?"></li>
-					<li><button type="submit" id="btn-search"><span class="fontawesome-search"></span></button></li>
-                    {% endcomment %}
-				</ul>
-
-			</fieldset>
-
-			</form>
-		</div>
-		<script>
-			( function() {
-
-				$('#btn-search').on('click', function(e) {
-
-					e.preventDefault();
-					$('#search').animate({width: 'toggle'}).focus();
-
-				});
-
-			} () );
-		</script>
-
-	</div>
 	<!-- Content -->
 	<div id="content">
 		<div id="fullscreen-slider" class="swiper-container">
@@ -58,6 +20,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         <h2 class="help-text">
                             Las clasificaciones que has realizados han sido guardadas.
                         </h2>
+                        <a class="help-text banner-text return-link" href="{% url "index" %}">Click aqui para regresar</a>
 					</div>
 
 

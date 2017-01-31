@@ -15,14 +15,9 @@ __status__ = 'development'
 __docformat__ = 'reStructuredText'
 
 import errno
-import sendgrid
-from sendgrid.helpers.mail import *
 import os
 import subprocess
 import urllib
-
-from unidecode import unidecode
-from sorl.thumbnail import get_thumbnail
 from django import forms
 from django.conf import settings
 from django.contrib import messages
@@ -137,141 +132,6 @@ def url_with_querystring(path, **kwargs):
     return path + '?' + urllib.urlencode(kwargs)
 
 
-def send_multipart_email(
-        subject,
-        template,
-        data_dict,
-        recipient_list,
-        request,
-        personalizations=None,
-        recipient_email_list=None):
-    """
-    Sends a multipart email (HTML / plain text) to one or many destinies.
-    Uses the Sengrid API to send all the email
-
-    :param subject: Email subject.
-    :param template: template id string of sendgrid.
-    :param data_dict: data to be passed to the rendered template.
-    :param recipient_list: array of users that will receipt it.
-    :param request: request object context to handle url constructions.
-    :param pesonalizations: an array of dictionaries containing template tags to be substituted on the sendgrid mail template.
-                            If none is given, function will use the data_dict for all mails.
-    :rtype: None.
-    """
-
-    if settings.SEND_EMAIL:
-
-        if type(recipient_list) != list:
-            recipient_list = [recipient_list]
-
-        # Extract emails from users
-        if not recipient_email_list:
-            recipient_email_list = [u.email for u in recipient_list]
-
-        email_list_sendgrid = []
-
-        for mail in recipient_email_list:
-
-            email_list_sendgrid.append({"email":mail})
-
-        # Adding footer data substitutions to data_dict
-        subs = {}
-        data_dict['footerAbout'] = _(u"About")
-        data_dict['footerSupport'] = _(u"Technical Support")
-        data_dict['footerPress'] = _(u"Press")
-
-        # Arranging personalization dictionary
-        if personalizations:
-            try:
-                sendgrid_personalizations = []
-                for data in personalizations:
-                    data['footerAbout'] = _(u"About")
-                    data['footerSupport'] = _(u"Technical Support")
-                    data['footerPress'] = _(u"Press")
-                    sendgrid_personalizations.append({"substitutions":data, 'subject': subject})
-
-                for i in range(len(email_list_sendgrid)):
-                    sendgrid_personalizations[i]['to'] = [email_list_sendgrid[i]]
-
-                sg = sendgrid.SendGridAPIClient(apikey=settings.SENDGRID_API_KEY)
-
-                data = {
-                    "personalizations": sendgrid_personalizations,
-                    "from": {
-                        "email": "info@edoo.io",
-                        "name": "Edoo"
-                    },
-                    "content": [{
-                        "type": "text/html",
-                        "value": " "
-                    }],
-                    "subject": subject,
-                    "template_id": template
-                }
-
-                response = sg.client.mail.send.post(request_body=data)
-
-            except Exception as err:
-
-                if len(email_list_sendgrid) != 0:
-                    messages.add_message(
-                        request,
-                        messages.WARNING,
-                        _(u"No pudo enviarse el correo a %s." % recipient_email_list[0]),
-                        extra_tags="default")
-        else:
-            try:
-                if len(email_list_sendgrid) != 0:
-                    # Test Send grid mailer
-                    sg = sendgrid.SendGridAPIClient(apikey=settings.SENDGRID_API_KEY)
-
-                    to = [email_list_sendgrid[0]]
-                    bcc = []
-                    for i in range(0,len(email_list_sendgrid)):
-                        if i == 0:
-                            continue
-                        else:
-                            bcc.append(email_list_sendgrid[i])
-
-                    if len(email_list_sendgrid) == 1:
-                        pers = [{
-                                "to": to,
-                                "subject": subject,
-                                "substitutions": data_dict,
-                            }]
-                    else:
-
-                        pers = [{
-                                "to": to,
-                                "subject": subject,
-                                "substitutions": data_dict,
-                                "bcc": bcc
-                            }]
-
-                    data = {
-                        "personalizations": pers,
-                        "from": {
-                            "email": "info@edoo.io",
-                            "name": "Edoo"
-                        },
-                        "content": [{
-                            "type": "text/html",
-                            "value": " "
-                        }],
-                        "template_id": template
-                    }
-                    response = sg.client.mail.send.post(request_body=data)
-
-            except Exception as err:
-
-                if len(email_list_sendgrid) != 0:
-                    messages.add_message(
-                        request,
-                        messages.WARNING,
-                        _(u"No pudo enviarse el correo a %s." % recipient_email_list[0]),
-                        extra_tags="default")
-
-
 def place_message(request, cr=None):
     """
     Given a request and a ControllerResponse, sets the flash messages needed.
@@ -315,23 +175,6 @@ def place_message(request, cr=None):
                                  extra_tags=" ".join(extra_tags))
 
 
-def clean_slug(name):
-    """
-    Returns a string that could be used as URL part, based on the string passed.
-
-    :param name: any string to obtain it's URL friendly representation.
-    :rtype: string.
-    """
-    if not name:
-        return name
-    name = name.lower()
-    name = name.rstrip()
-    name = name.strip()
-    name = "-".join(name.split())
-    name = unidecode(name)
-    name = name.replace(" ", "-")
-    name = name.replace("\"", "")
-    return name
 
 
 def clean_for_json(dictionary):

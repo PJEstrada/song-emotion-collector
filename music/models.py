@@ -1,8 +1,19 @@
+# -*- coding: utf-8 -*-
 from __future__ import unicode_literals
 from django.conf import settings
-from audiofield.fields import AudioField
+from django_countries.fields import CountryField
 import os.path
 from django.db import models
+
+GENDERS = [("Masculino", "Masculino",), ("Femenino", "Femenino")]
+YES_NO = [ ("No", "No"), ("Si", "Si",)]
+SCOLARITY = [("Ninguno", "Ninguno",),
+             ("Primaria", "Primaria"),
+             ("Basicos", "Basicos"),
+             ("Bachillerato", "Bachillerato"),
+             ("Universitario", "Universitario"),
+             ("Licenciatura", "Licenciatura"),
+             (u"Maestrías/Doctorados", u"Maestrías/Doctorados")]
 
 
 class Participant(models.Model):
@@ -11,14 +22,27 @@ class Participant(models.Model):
     elegibility of the participant in the song classification.
     """
     first_name = models.CharField(max_length=300)
+    email = models.EmailField(max_length=100,blank=True,null=True)
     last_name = models.CharField(max_length=300)
     age = models.IntegerField(default=15)
-    gender = models.CharField(max_length=50, choices=[("Masculino", "Masculino",), ("Femenino", "Femenino")])
+    gender = models.CharField(max_length=50, choices=GENDERS, default=GENDERS[0])
+    scolarity = models.CharField(max_length=50, choices=SCOLARITY, default=SCOLARITY[0])
+    country = CountryField(blank_label='(Seleccione País)')
+    knows_music_theory = models.CharField(choices=YES_NO, max_length=50, verbose_name="Posee concoimientos de teoría musical/armonía básica", default=YES_NO[1])
+    has_physical_problem = models.CharField(choices=YES_NO, max_length=50, verbose_name="Posee impedimentos físicos", default=YES_NO[1])
+    physical_problem = models.TextField(blank=True, null=True)
+    hearing_problem = models.TextField(blank=True, null=True)
+    has_hearing_problem = models.CharField(choices=YES_NO, max_length=50, verbose_name="Posee impedimentos Auditivos", default=YES_NO[1])
+    psychological_problem = models.TextField(blank=True, null=True)
+    has_psychological_problem = models.CharField(choices=YES_NO, max_length=50, verbose_name="Posee algún problema o desorden psicológico", default=YES_NO[1])
+    is_uvg = models.BooleanField(blank=True, default=settings.UVG_STUDENT)
 
 
 class SongClassification(models.Model):
     participant = models.ForeignKey(Participant)
     mood_label = models.CharField(max_length=300)
+    date_taken = models.DateTimeField(auto_now=True)
+    time_taken = models.FloatField(blank=True, null=True,default=0.0)
 
 
 # Create your models here.
@@ -27,6 +51,8 @@ class Song(models.Model):
     genre = models.CharField(max_length=300)
     classifications = models.ManyToManyField(SongClassification)
     audio_file = models.FileField(upload_to='songs')
+    s3_path = models.CharField(max_length=1000)
+    cloud_front_path = models.CharField(max_length=1000)
 
     # Add this method to your model
     def audio_file_player(self):
