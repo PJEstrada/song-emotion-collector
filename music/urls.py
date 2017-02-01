@@ -10,6 +10,7 @@ urlpatterns = [
         views.index,
         name='index'
     ),
+    # Consentimiento informado
     url(
         r'^privacy-policy',
         views.consentimiento_informado,
