@@ -30,7 +30,7 @@ DEBUG = True
 
 # Activate for S3 Storage
 
-ALLOWED_HOSTS = ['ec2-54-187-236-200.us-west-2.compute.amazonaws.com','localhost']
+ALLOWED_HOSTS = ['ec2-54-187-236-200.us-west-2.compute.amazonaws.com','localhost','uvg-clasificador.com']
 AWS_STORAGE_BUCKET_NAME = 'music-emotions'
 AWS_ACCESS_KEY_ID = os.getenv('MUSIC_EMOTIONS_ID', 0)
 AWS_SECRET_ACCESS_KEY = os.getenv('MUSIC_EMOTIONS_SECRET', 0)
