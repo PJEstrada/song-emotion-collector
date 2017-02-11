@@ -128,7 +128,7 @@
           $("#jquery_jplayer_1").jPlayer({
             ready: function () {
               $(this).jPlayer("setMedia", {
-                title: "Escuha la canción!",
+                title: "ID: "+'{{ song.pk }}',
                 mp3: decodeHTML('{{ song.cloud_front_path }}'),
                 wav: decodeHTML('{{ song.cloud_front_path }}')
               });
