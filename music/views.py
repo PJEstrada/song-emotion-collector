@@ -84,8 +84,8 @@ def start_classification(request):
 
             # Get first song with lowest number of classifications
             # song = Song.objects.annotate(num_classifications=Count('classifications')).order_by('num_classifications')[0]
-            #song = pick_random_song_lowest_classifications()
-            song = Song.objects.get(pk=124)
+            song = pick_random_song_lowest_classifications()
+            #song = Song.objects.get(pk=124)
             #return render(request, 'music/thank_you.html', {})
             return render(request, 'music/song_classification.html', {'song_number': 1,
                                                                       'song': song,
