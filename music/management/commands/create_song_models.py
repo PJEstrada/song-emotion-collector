@@ -11,7 +11,7 @@ class Command(BaseCommand):
 
     def handle(self, *args, **kwargs):
         print log_title("Load Songs Script")
-        conn = S3Connection('AKIAI4OXMW6QANZA75LQ', '2d0MYouK73RyjJDCXkMtA1ZBNZJBT+EG+YCeR4/G')
+        conn = S3Connection(settings.AWS_ACCESS_KEY_ID, settings.AWS_SECRET_ACCESS_KEY)
         bucket = conn.get_bucket('music-emotions')
         i = 0
         for key in bucket.list():

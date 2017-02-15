@@ -125,12 +125,19 @@
 
         });
         $(document).ready(function(){
+            var path = '{{ song.cloud_front_path }}';
+            path = decodeHTML(path);
+                        String.prototype.replaceAll = function(str1, str2, ignore)
+            {
+                return this.replace(new RegExp(str1.replace(/([\/\,\!\\\^\$\{\}\[\]\(\)\.\*\+\?\|\<\>\-\&])/g,"\\$&"),(ignore?"gi":"g")),(typeof(str2)=="string")?str2.replace(/\$/g,"$$$$"):str2);
+            }
+            path = path.replaceAll("amp;","");
           $("#jquery_jplayer_1").jPlayer({
             ready: function () {
               $(this).jPlayer("setMedia", {
                 title: "ID: "+'{{ song.pk }}',
-                mp3: decodeHTML('{{ song.cloud_front_path }}'),
-                wav: decodeHTML('{{ song.cloud_front_path }}')
+                mp3: path,
+                wav: path
               });
             },
             cssSelectorAncestor: "#jp_container_1",
