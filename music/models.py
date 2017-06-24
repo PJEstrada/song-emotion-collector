@@ -68,3 +68,7 @@ class Song(models.Model):
 
     def __unicode__(self):
         return self.name
+
+    @property
+    def key(self):
+        return self.s3_path.split(settings.S3_URL)[1]

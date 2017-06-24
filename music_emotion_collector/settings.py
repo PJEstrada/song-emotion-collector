@@ -51,6 +51,7 @@ INSTALLED_APPS = [
     'music',
     'audiofield',
     'storages',
+    'feature_extractor',
     'django_countries',
 ]
 
@@ -98,7 +99,7 @@ WSGI_APPLICATION = 'music_emotion_collector.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3.2'),
     }
 }
 
