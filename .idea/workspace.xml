@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38a3c45a-9c89-463c-be4c-036e455f32c6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pyAudioAnalysis" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/feature_extractor/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/feature_extractor/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/feature_extractor/apps.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/feature_extractor/migrations/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/feature_extractor/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/feature_extractor/services.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/feature_extractor/tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/feature_extractor/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/models.py" afterPath="$PROJECT_DIR$/music/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music_emotion_collector/settings.py" afterPath="$PROJECT_DIR$/music_emotion_collector/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pyAudioAnalysis" afterPath="$PROJECT_DIR$/pyAudioAnalysis" />
     </list>
     <ignored path="music_emotion_collector.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -532,9 +518,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33261454" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33261454" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
