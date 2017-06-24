@@ -465,7 +465,8 @@ pending_pks=[7,
 
 
 def pick_random_song_lowest_classifications():
-    filtered_songs = Song.objects.filter(pk__in=pending_pks)
+    # filtered_songs = Song.objects.filter(pk__in=pending_pks)
+    filtered_songs = Song.objects.all()
     songs = filtered_songs.annotate(num_classifications=Count('classifications')).order_by('num_classifications')
     lowest_song_num = songs[0].num_classifications
     selected_songs = []

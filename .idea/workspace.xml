@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="38a3c45a-9c89-463c-be4c-036e455f32c6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pyAudioAnalysis" afterPath="$PROJECT_DIR$/pyAudioAnalysis" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/views.py" afterPath="$PROJECT_DIR$/music/views.py" />
     </list>
     <ignored path="music_emotion_collector.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,7 +46,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="get_pending_songs_pks.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="get_pending_songs_pks.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/management/commands/get_pending_songs_pks.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="504">
@@ -67,12 +68,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/music/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1800">
-              <caret line="107" column="5" selection-start-line="107" selection-start-column="5" selection-end-line="107" selection-end-column="5" />
-              <folding />
+            <state relative-caret-position="126">
+              <caret line="467" column="6" selection-start-line="467" selection-start-column="6" selection-end-line="467" selection-end-column="6" />
+              <folding>
+                <element signature="e#301#2978#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -151,7 +154,6 @@
         <option value="$PROJECT_DIR$/music/templates/music/thank_you.html" />
         <option value="$PROJECT_DIR$/music/urls.py" />
         <option value="$PROJECT_DIR$/music/management/commands/create_song_models.py" />
-        <option value="$PROJECT_DIR$/music/views.py" />
         <option value="$PROJECT_DIR$/music/templates/music/song_classification.html" />
         <option value="$PROJECT_DIR$/feature_extractor/models.py" />
         <option value="$PROJECT_DIR$/music/models.py" />
@@ -159,6 +161,7 @@
         <option value="$PROJECT_DIR$/pyAudioAnalysis/audioFeatureExtraction.py" />
         <option value="$PROJECT_DIR$/feature_extractor/services.py" />
         <option value="$PROJECT_DIR$/music_emotion_collector/settings.py" />
+        <option value="$PROJECT_DIR$/music/views.py" />
       </list>
     </option>
   </component>
@@ -215,6 +218,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="music_emotion_collector" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="music_emotion_collector" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="music_emotion_collector" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="music" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -518,9 +535,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33261454" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33261454" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -829,14 +846,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/music/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1800">
-          <caret line="107" column="5" selection-start-line="107" selection-start-column="5" selection-end-line="107" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pyAudioAnalysis/audioTrainTest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4824">
@@ -911,6 +920,16 @@
           <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/music/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="467" column="6" selection-start-line="467" selection-start-column="6" selection-end-line="467" selection-end-column="6" />
+          <folding>
+            <element signature="e#301#2978#0" expanded="false" />
           </folding>
         </state>
       </provider>
