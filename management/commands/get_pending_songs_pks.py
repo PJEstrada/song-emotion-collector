@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from music.models import Song
 import operator
 
@@ -24,6 +25,11 @@ for song in Song.objects.all():
         results_classified.append({'song': song, 'emotion': max_element_key})
 
 print "PENDING SONGS"
-print results
+print len(results)
 print "CLASSIFIED SONGS"
-print results_classified
+for x in results_classified:
+    print x
+    x['song'].mood = x['emotion']
+    x['song'].save()
+
+

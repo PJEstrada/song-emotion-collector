@@ -32,6 +32,16 @@ from datetime import datetime
 from django.utils import timezone
 from django.core import urlresolvers
 from django.http import HttpResponse
+import numpy as np
+
+
+def load_song_features(song):
+    """
+    Returns a numpy array with the 34 features of the given song.
+    :param song:
+    :return:
+    """
+    return np.load(settings.PROJECT_ROOT_DIR+'/npy-data/'+song.name+".npy")
 
 
 def run_shell_command(command):

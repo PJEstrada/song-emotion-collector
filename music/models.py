@@ -53,7 +53,7 @@ class Song(models.Model):
     audio_file = models.FileField(upload_to='songs')
     s3_path = models.CharField(max_length=1000)
     cloud_front_path = models.CharField(max_length=1000)
-
+    mood = models.CharField(max_length=100)
     # Add this method to your model
     def audio_file_player(self):
         """audio player tag for admin"""

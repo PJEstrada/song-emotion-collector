@@ -1,4 +1,6 @@
 venv
-db.sqlite3
 .idea
+db.sqlite3
+.idea/workspace.xml
 song-wavs
+.npy-data

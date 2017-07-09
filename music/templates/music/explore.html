@@ -1,0 +1,53 @@
+{% extends "music/base.html" %}
+{% load staticfiles %}
+{% block content %}
+
+    <div class="background explore-section">
+        <div class="content-panel explore-music">
+            <div class="title">
+                <h1 class="explore-title">Explora la Música:</h1>
+                <h2 class="explore-subtitle">{{ selected_genre }}</h2>
+            </div>
+            <div class="tabset">
+                {% for genre in genres %}
+                    {% if genre == selected_genre %}
+                        <a href={% url 'explore' %}?genre={{ genre }}" class="tab selected">{{ genre }}</a>
+                    {% else %}
+                        <a href={% url 'explore' %}?genre={{ genre }} class="tab">{{ genre }}</a>
+                    {% endif %}
+
+                {% endfor %}
+            </div>
+            <div class="table-container">
+                <table class="songs-table">
+                    <tr class="header">
+                        <th class="col song-name">Nombre</th>
+                        <th class="col">Clasificación Real</th>
+                        <th class="col">KNN</th>
+                        <th class="col">SVM</th>
+                        <th class="col">Deep Learning</th>
+                        <th class="col">Detalles</th>
+                    </tr>
+                    {% for song in songs %}
+                        <tr>
+                            <td class="col song-name">{{ song.name }}</td>
+                            <td class="col">{{ song.classifications.all.0.mood_label }}</td>
+                            <td class="col">{{ song.classifications.all.0.mood_label }}</td>
+                            <td class="col">{{ song.classifications.all.0.mood_label }}</td>
+                            <td class="col">{{ song.classifications.all.0.mood_label }}</td>
+                            <td class="col"><a href="" class="button-details">Detalles</a></td>
+                        </tr>
+                    {% endfor %}
+                </table>
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+{% endblock %}
+
+
+

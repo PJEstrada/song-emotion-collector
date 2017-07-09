@@ -2464,6 +2464,14 @@ div#fullscreen-slider {
 
 
 }
+/* Song classification section*/
+.explore-section{
+    height: 2600px;
+    background: url("../images/banner3.jpg");
+    background-size: cover;
+
+
+}
 .song-number-panel{
     padding-top: 150px;
     margin: auto;

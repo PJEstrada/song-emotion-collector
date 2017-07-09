@@ -2487,6 +2487,14 @@ div#fullscreen-slider {
 
 
 }
+/* Song classification section*/
+.explore-section{
+    height: 1500px;
+    background: url("../images/banner3.jpg");
+    background-size: cover;
+    overflow: scroll;
+
+}
 .song-number-panel{
     padding-top: 150px;
     margin: auto;
@@ -2537,21 +2545,25 @@ span.selected {
     font-size: 4.5em;
     margin-top: 25px;
 }
+
 .button-start-classification:hover{
     color: #8BB308;;
     background: #E4BA1A;
     border-style: solid;
 }
+
 .mood-option-container{
     display: inline-block;
     margin-right: 20px;
     cursor:pointer;
 }
+
 .mood-option-container.selected{
     border-style: solid;
     border-color: green;
     border-width: 15px;
 }
+
 .mood-option-container p{
     margin: 0;
     font-size: 3.5em;
@@ -2598,8 +2610,8 @@ td{
     padding-left: 25px;
     padding-left: 25px;
     display: table-cell;
-
 }
+
 .small-select{
     width:50px;
 }
@@ -2622,4 +2634,73 @@ td{
     margin:30px;
     cursor: pointer;
 
+}
+.explore-title{
+    color: white;
+    font-size: 65px;
+    font-family: 'Rajdhani';
+    padding: 150px;
+    text-align: center;
+}
+.explore-subtitle{
+    color: white;
+    font-size: 35px;
+    font-family: 'Rajdhani';
+    text-align: center;
+}
+.tabset{
+    font-size: 32px;
+    background-color: #8BB308;
+    margin: auto;
+    font-family: 'Rajdhani';
+    max-width: 1300px;
+    text-align: center;
+}
+.tabset .tab{
+    display: inline-block;
+    font-family: 'Rajdhani';
+    margin-right: 25px;
+    color: white;
+}
+
+.tabset .tab.selected{
+    color: #E4BA1A;
+    font-weight: bold;
+}
+.tabset .tab:hover{
+    cursor: pointer;
+    color: #E4BA1A;
+}
+.content-panel.explore-music{
+        overflow: scroll;
+}
+.songs-table{
+    border: 1px solid #fff;
+    font-family: 'Rajdhani';
+    max-width: 1300px;
+    text-align: center;
+    margin: auto;
+    overflow: scroll;
+}
+.songs-table th{
+    color: #8BB308;
+    font-size: 25px;
+    text-align: center;
+
+}
+.songs-table td{
+    border: 1px solid #fff;
+}
+.col{
+    width: 10%;
+    color: white;
+}
+.col.song-name{
+    width: 30%;
+}
+.button-details{
+    background-color: #E4BA1A;
+    border-radius: 15% ;
+    padding: 10px;
+    color: white;
 }

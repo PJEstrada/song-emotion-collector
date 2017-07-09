@@ -22,6 +22,11 @@ urlpatterns = [
         name='song_classification'
     ),
     url(
+        r'^explore',
+        views.explore,
+        name='explore'
+    ),
+    url(
         r'^start-classification',
         views.start_classification,
         name='start_classification'

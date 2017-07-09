@@ -31,14 +31,14 @@ DEBUG = True
 # Activate for S3 Storage
 
 ALLOWED_HOSTS = ['ec2-54-187-236-200.us-west-2.compute.amazonaws.com','localhost','uvg-clasificador.com']
-AWS_STORAGE_BUCKET_NAME = 'music-emotions'
-AWS_ACCESS_KEY_ID = os.getenv('MUSIC_EMOTIONS_ID', 0)
-AWS_SECRET_ACCESS_KEY = os.getenv('MUSIC_EMOTIONS_SECRET', 0)
-AWS_S3_CUSTOM_DOMAIN = '%s.s3.amazonaws.com' % AWS_STORAGE_BUCKET_NAME
-STATICFILES_LOCATION = 'static'
-STATICFILES_STORAGE = 'music.custom_storages.StaticStorage'
-STATIC_URL = "https://%s/%s/" % (AWS_S3_CUSTOM_DOMAIN, STATICFILES_LOCATION)
-S3_URL = "https://%s/" % (AWS_S3_CUSTOM_DOMAIN)
+# AWS_STORAGE_BUCKET_NAME = 'music-emotions'
+# AWS_ACCESS_KEY_ID = os.getenv('MUSIC_EMOTIONS_ID', 0)
+# AWS_SECRET_ACCESS_KEY = os.getenv('MUSIC_EMOTIONS_SECRET', 0)
+# AWS_S3_CUSTOM_DOMAIN = '%s.s3.amazonaws.com' % AWS_STORAGE_BUCKET_NAME
+# STATICFILES_LOCATION = 'static'
+# STATICFILES_STORAGE = 'music.custom_storages.StaticStorage'
+# STATIC_URL = "https://%s/%s/" % (AWS_S3_CUSTOM_DOMAIN, STATICFILES_LOCATION)
+# S3_URL = "https://%s/" % (AWS_S3_CUSTOM_DOMAIN)
 # Application definition
 
 INSTALLED_APPS = [
@@ -54,6 +54,15 @@ INSTALLED_APPS = [
     'feature_extractor',
     'django_countries',
 ]
+
+GENRES = ['ambient',
+          'blues-r&b',
+          'classical',
+          'country-folk',
+          'electronic',
+          'jazz',
+          'pop',
+          'rock']
 
 AWS_HEADERS = {  # see http://developer.yahoo.com/performance/rules.html#expires
     'Expires': 'Thu, 31 Dec 2099 20:00:00 GMT',
@@ -99,7 +108,7 @@ WSGI_APPLICATION = 'music_emotion_collector.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3.2'),
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
 
