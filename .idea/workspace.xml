@@ -2,316 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38a3c45a-9c89-463c-be4c-036e455f32c6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classifier/knn_1_all_samples_mode.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classifier/knn_2_average_time.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classifier/knn_3_feature_means.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/music/templates/music/explore.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/music/templates/home.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/music/templates/participant_data.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/music/templates/song_classification.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/music/templates/thank_you.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3-copy" afterPath="$PROJECT_DIR$/db.sqlite3-copy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3.2" afterPath="$PROJECT_DIR$/db.sqlite3.2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3.backup-may" afterPath="$PROJECT_DIR$/db.sqlite3.backup-may" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/songs/medc.jpg" afterPath="$PROJECT_DIR$/media/songs/medc.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/templates/music/simple-email-capture-page/Simple Email Capture/Simple Email Capture.zip" afterPath="$PROJECT_DIR$/music/templates/music/simple-email-capture-page/Simple Email Capture/Simple Email Capture.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/templates/music/simple-email-capture-page/Simple Email Capture/Simple Email Capture/__MACOSX/leadpages-template/._.DS_Store" afterPath="$PROJECT_DIR$/music/templates/music/simple-email-capture-page/Simple Email Capture/Simple Email Capture/__MACOSX/leadpages-template/._.DS_Store" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/templates/music/simple-email-capture-page/Simple Email Capture/Simple Email Capture/__MACOSX/leadpages-template/img/._.DS_Store" afterPath="$PROJECT_DIR$/music/templates/music/simple-email-capture-page/Simple Email Capture/Simple Email Capture/__MACOSX/leadpages-template/img/._.DS_Store" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/templates/music/simple-email-capture-page/Simple Email Capture/Simple Email Capture/leadpages-template/img/bg.jpg" afterPath="$PROJECT_DIR$/music/templates/music/simple-email-capture-page/Simple Email Capture/Simple Email Capture/leadpages-template/img/bg.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/templates/music/simple-email-capture-page/Simple Email Capture/Simple Email Capture/leadpages-template/img/logo.png" afterPath="$PROJECT_DIR$/music/templates/music/simple-email-capture-page/Simple Email Capture/Simple Email Capture/leadpages-template/img/logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/templates/music/simple-email-capture-page/__MACOSX/Simple Email Capture/._00-Watch Me First!.webloc" afterPath="$PROJECT_DIR$/music/templates/music/simple-email-capture-page/__MACOSX/Simple Email Capture/._00-Watch Me First!.webloc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/templates/music/simple-email-capture-page/__MACOSX/Simple Email Capture/._Simple Email Capture.zip" afterPath="$PROJECT_DIR$/music/templates/music/simple-email-capture-page/__MACOSX/Simple Email Capture/._Simple Email Capture.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music_emotion_collector/.settings.py.swp" afterPath="$PROJECT_DIR$/music_emotion_collector/.settings.py.swp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pyAudioAnalysis" afterPath="$PROJECT_DIR$/pyAudioAnalysis" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/1.jpg" afterPath="$PROJECT_DIR$/static/1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/3.jpg" afterPath="$PROJECT_DIR$/static/3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/6.jpg" afterPath="$PROJECT_DIR$/static/6.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/fonts/Roboto-Bold-webfont.woff" afterPath="$PROJECT_DIR$/static/admin/fonts/Roboto-Bold-webfont.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/fonts/Roboto-Light-webfont.woff" afterPath="$PROJECT_DIR$/static/admin/fonts/Roboto-Light-webfont.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/fonts/Roboto-Regular-webfont.woff" afterPath="$PROJECT_DIR$/static/admin/fonts/Roboto-Regular-webfont.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/arr.png" afterPath="$PROJECT_DIR$/static/arr.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/audiofield/page-player/image/divot-bottom.png" afterPath="$PROJECT_DIR$/static/audiofield/page-player/image/divot-bottom.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/audiofield/page-player/image/divot.png" afterPath="$PROJECT_DIR$/static/audiofield/page-player/image/divot.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/audiofield/page-player/image/top-highlight.png" afterPath="$PROJECT_DIR$/static/audiofield/page-player/image/top-highlight.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/audiofield/swf/soundmanager2.swf" afterPath="$PROJECT_DIR$/static/audiofield/swf/soundmanager2.swf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/audiofield/swf/soundmanager2_debug.swf" afterPath="$PROJECT_DIR$/static/audiofield/swf/soundmanager2_debug.swf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/audiofield/swf/soundmanager2_flash9.swf" afterPath="$PROJECT_DIR$/static/audiofield/swf/soundmanager2_flash9.swf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/audiofield/swf/soundmanager2_flash9_debug.swf" afterPath="$PROJECT_DIR$/static/audiofield/swf/soundmanager2_flash9_debug.swf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/audiofield/swf/soundmanager2_flash_xdomain.zip" afterPath="$PROJECT_DIR$/static/audiofield/swf/soundmanager2_flash_xdomain.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/banner1.jpg" afterPath="$PROJECT_DIR$/static/banner1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/banner2.jpg" afterPath="$PROJECT_DIR$/static/banner2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/blue.monday/image/jplayer.blue.monday.jpg" afterPath="$PROJECT_DIR$/static/blue.monday/image/jplayer.blue.monday.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/blue.monday/image/jplayer.blue.monday.seeking.gif" afterPath="$PROJECT_DIR$/static/blue.monday/image/jplayer.blue.monday.seeking.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/blue.monday/image/jplayer.blue.monday.video.play.png" afterPath="$PROJECT_DIR$/static/blue.monday/image/jplayer.blue.monday.video.play.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/contact.jpg" afterPath="$PROJECT_DIR$/static/contact.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/blue.monday/image/jplayer.blue.monday.jpg" afterPath="$PROJECT_DIR$/static/css/blue.monday/image/jplayer.blue.monday.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/blue.monday/image/jplayer.blue.monday.seeking.gif" afterPath="$PROJECT_DIR$/static/css/blue.monday/image/jplayer.blue.monday.seeking.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/blue.monday/image/jplayer.blue.monday.video.play.png" afterPath="$PROJECT_DIR$/static/css/blue.monday/image/jplayer.blue.monday.video.play.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/g1.jpg" afterPath="$PROJECT_DIR$/static/g1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/g2.jpg" afterPath="$PROJECT_DIR$/static/g2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/g3.jpg" afterPath="$PROJECT_DIR$/static/g3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/g4.jpg" afterPath="$PROJECT_DIR$/static/g4.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/g5.jpg" afterPath="$PROJECT_DIR$/static/g5.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/g6.jpg" afterPath="$PROJECT_DIR$/static/g6.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/g7.jpg" afterPath="$PROJECT_DIR$/static/g7.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/happy.png" afterPath="$PROJECT_DIR$/static/happy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/icon1.png" afterPath="$PROJECT_DIR$/static/icon1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/icon2.png" afterPath="$PROJECT_DIR$/static/icon2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/icon3.png" afterPath="$PROJECT_DIR$/static/icon3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/icon4.png" afterPath="$PROJECT_DIR$/static/icon4.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/1.jpg" afterPath="$PROJECT_DIR$/static/images/1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/3.jpg" afterPath="$PROJECT_DIR$/static/images/3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/6.jpg" afterPath="$PROJECT_DIR$/static/images/6.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/anger.png" afterPath="$PROJECT_DIR$/static/images/anger.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/arr.png" afterPath="$PROJECT_DIR$/static/images/arr.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/banner1.jpg" afterPath="$PROJECT_DIR$/static/images/banner1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/banner2.jpg" afterPath="$PROJECT_DIR$/static/images/banner2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/contact.jpg" afterPath="$PROJECT_DIR$/static/images/contact.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/disgust.png" afterPath="$PROJECT_DIR$/static/images/disgust.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/fear.png" afterPath="$PROJECT_DIR$/static/images/fear.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/g1.jpg" afterPath="$PROJECT_DIR$/static/images/g1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/g2.jpg" afterPath="$PROJECT_DIR$/static/images/g2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/g3.jpg" afterPath="$PROJECT_DIR$/static/images/g3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/g4.jpg" afterPath="$PROJECT_DIR$/static/images/g4.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/g5.jpg" afterPath="$PROJECT_DIR$/static/images/g5.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/g6.jpg" afterPath="$PROJECT_DIR$/static/images/g6.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/g7.jpg" afterPath="$PROJECT_DIR$/static/images/g7.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/happy.png" afterPath="$PROJECT_DIR$/static/images/happy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/icon1.png" afterPath="$PROJECT_DIR$/static/images/icon1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/icon2.png" afterPath="$PROJECT_DIR$/static/images/icon2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/icon3.png" afterPath="$PROJECT_DIR$/static/images/icon3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/icon4.png" afterPath="$PROJECT_DIR$/static/images/icon4.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/joy.png" afterPath="$PROJECT_DIR$/static/images/joy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/logo_uvg.png" afterPath="$PROJECT_DIR$/static/images/logo_uvg.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/menu.png" afterPath="$PROJECT_DIR$/static/images/menu.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/message.png" afterPath="$PROJECT_DIR$/static/images/message.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/neutral.png" afterPath="$PROJECT_DIR$/static/images/neutral.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/q1.png" afterPath="$PROJECT_DIR$/static/images/q1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/q2.png" afterPath="$PROJECT_DIR$/static/images/q2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/sadness.png" afterPath="$PROJECT_DIR$/static/images/sadness.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/search.png" afterPath="$PROJECT_DIR$/static/images/search.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/social2.png" afterPath="$PROJECT_DIR$/static/images/social2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/t1.jpg" afterPath="$PROJECT_DIR$/static/images/t1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/t2.jpg" afterPath="$PROJECT_DIR$/static/images/t2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/t3.jpg" afterPath="$PROJECT_DIR$/static/images/t3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/test1.png" afterPath="$PROJECT_DIR$/static/images/test1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/test2.png" afterPath="$PROJECT_DIR$/static/images/test2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/test3.png" afterPath="$PROJECT_DIR$/static/images/test3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/jquery.jplayer.swf" afterPath="$PROJECT_DIR$/static/jquery.jplayer.swf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/jquery.jplayer.swf" afterPath="$PROJECT_DIR$/static/js/jquery.jplayer.swf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/menu.png" afterPath="$PROJECT_DIR$/static/menu.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/message.png" afterPath="$PROJECT_DIR$/static/message.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/q1.png" afterPath="$PROJECT_DIR$/static/q1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/q2.png" afterPath="$PROJECT_DIR$/static/q2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/search.png" afterPath="$PROJECT_DIR$/static/search.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/social2.png" afterPath="$PROJECT_DIR$/static/social2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/t1.jpg" afterPath="$PROJECT_DIR$/static/t1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/t2.jpg" afterPath="$PROJECT_DIR$/static/t2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/t3.jpg" afterPath="$PROJECT_DIR$/static/t3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/test1.png" afterPath="$PROJECT_DIR$/static/test1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/test2.png" afterPath="$PROJECT_DIR$/static/test2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/test3.png" afterPath="$PROJECT_DIR$/static/test3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/pablo.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/pablo.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/music_emotion_collector.iml" afterPath="$PROJECT_DIR$/.idea/music_emotion_collector.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/feature_extractor/__init__.py" afterPath="$PROJECT_DIR$/feature_extractor/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/feature_extractor/admin.py" afterPath="$PROJECT_DIR$/feature_extractor/admin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/feature_extractor/apps.py" afterPath="$PROJECT_DIR$/feature_extractor/apps.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/feature_extractor/migrations/__init__.py" afterPath="$PROJECT_DIR$/feature_extractor/migrations/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/feature_extractor/models.py" afterPath="$PROJECT_DIR$/feature_extractor/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/feature_extractor/services.py" afterPath="$PROJECT_DIR$/feature_extractor/services.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/feature_extractor/tests.py" afterPath="$PROJECT_DIR$/feature_extractor/tests.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/feature_extractor/views.py" afterPath="$PROJECT_DIR$/feature_extractor/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/management/commands/create_song_models.py" afterPath="$PROJECT_DIR$/management/commands/create_song_models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/management/commands/get_pending_songs_pks.py" afterPath="$PROJECT_DIR$/management/commands/get_pending_songs_pks.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/__init__.py" afterPath="$PROJECT_DIR$/music/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/admin.py" afterPath="$PROJECT_DIR$/music/admin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/apps.py" afterPath="$PROJECT_DIR$/music/apps.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/custom_storages.py" afterPath="$PROJECT_DIR$/music/custom_storages.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/forms.py" afterPath="$PROJECT_DIR$/music/forms.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/load_songs.py" afterPath="$PROJECT_DIR$/music/load_songs.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/management/__init__.py" afterPath="$PROJECT_DIR$/music/management/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/management/commands/__init__.py" afterPath="$PROJECT_DIR$/music/management/commands/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/management/commands/create_song_models.py" afterPath="$PROJECT_DIR$/music/management/commands/create_song_models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/music/migrations/0001_initial.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/migrations/0002_auto_20161214_0341.py" afterPath="$PROJECT_DIR$/music/migrations/0002_auto_20161214_0341.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/migrations/0003_auto_20161214_0342.py" afterPath="$PROJECT_DIR$/music/migrations/0003_auto_20161214_0342.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/migrations/0004_song_audio_file.py" afterPath="$PROJECT_DIR$/music/migrations/0004_song_audio_file.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/migrations/0005_auto_20161214_0608.py" afterPath="$PROJECT_DIR$/music/migrations/0005_auto_20161214_0608.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/migrations/0006_participant_email.py" afterPath="$PROJECT_DIR$/music/migrations/0006_participant_email.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/migrations/0007_auto_20170116_0251.py" afterPath="$PROJECT_DIR$/music/migrations/0007_auto_20170116_0251.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/migrations/0008_song_s3_path.py" afterPath="$PROJECT_DIR$/music/migrations/0008_song_s3_path.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/migrations/0009_auto_20170122_1708.py" afterPath="$PROJECT_DIR$/music/migrations/0009_auto_20170122_1708.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/migrations/0010_auto_20170125_0051.py" afterPath="$PROJECT_DIR$/music/migrations/0010_auto_20170125_0051.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/migrations/0011_participant_is_uvg.py" afterPath="$PROJECT_DIR$/music/migrations/0011_participant_is_uvg.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/migrations/0012_song_cloud_front_path.py" afterPath="$PROJECT_DIR$/music/migrations/0012_song_cloud_front_path.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/migrations/0013_auto_20170128_1903.py" afterPath="$PROJECT_DIR$/music/migrations/0013_auto_20170128_1903.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/migrations/0014_auto_20170128_1906.py" afterPath="$PROJECT_DIR$/music/migrations/0014_auto_20170128_1906.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/migrations/0015_auto_20170128_1909.py" afterPath="$PROJECT_DIR$/music/migrations/0015_auto_20170128_1909.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/migrations/0016_songclassification_time_taken.py" afterPath="$PROJECT_DIR$/music/migrations/0016_songclassification_time_taken.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/migrations/0017_auto_20170131_1553.py" afterPath="$PROJECT_DIR$/music/migrations/0017_auto_20170131_1553.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/migrations/__init__.py" afterPath="$PROJECT_DIR$/music/migrations/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/models.py" afterPath="$PROJECT_DIR$/music/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/templates/music/base.html" afterPath="$PROJECT_DIR$/music/templates/music/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/templates/music/home.html" afterPath="$PROJECT_DIR$/music/templates/music/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/templates/music/participant_data.html" afterPath="$PROJECT_DIR$/music/templates/music/participant_data.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/templates/music/privacy-policy.html" afterPath="$PROJECT_DIR$/music/templates/music/privacy-policy.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/templates/music/rock_star/web/index.html" afterPath="$PROJECT_DIR$/music/templates/music/rock_star/web/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/templates/music/simple-email-capture-page/Simple Email Capture/00-Watch Me First!.webloc" afterPath="$PROJECT_DIR$/music/templates/music/simple-email-capture-page/Simple Email Capture/00-Watch Me First!.webloc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/templates/music/simple-email-capture-page/Simple Email Capture/Simple Email Capture/leadpages-template/.idea/.name" afterPath="$PROJECT_DIR$/music/templates/music/simple-email-capture-page/Simple Email Capture/Simple Email Capture/leadpages-template/.idea/.name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/templates/music/simple-email-capture-page/Simple Email Capture/Simple Email Capture/leadpages-template/.idea/encodings.xml" afterPath="$PROJECT_DIR$/music/templates/music/simple-email-capture-page/Simple Email Capture/Simple Email Capture/leadpages-template/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/templates/music/simple-email-capture-page/Simple Email Capture/Simple Email Capture/leadpages-template/.idea/leadpages-template.iml" afterPath="$PROJECT_DIR$/music/templates/music/simple-email-capture-page/Simple Email Capture/Simple Email Capture/leadpages-template/.idea/leadpages-template.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/templates/music/simple-email-capture-page/Simple Email Capture/Simple Email Capture/leadpages-template/.idea/misc.xml" afterPath="$PROJECT_DIR$/music/templates/music/simple-email-capture-page/Simple Email Capture/Simple Email Capture/leadpages-template/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/templates/music/simple-email-capture-page/Simple Email Capture/Simple Email Capture/leadpages-template/.idea/modules.xml" afterPath="$PROJECT_DIR$/music/templates/music/simple-email-capture-page/Simple Email Capture/Simple Email Capture/leadpages-template/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/templates/music/simple-email-capture-page/Simple Email Capture/Simple Email Capture/leadpages-template/.idea/scopes/scope_settings.xml" afterPath="$PROJECT_DIR$/music/templates/music/simple-email-capture-page/Simple Email Capture/Simple Email Capture/leadpages-template/.idea/scopes/scope_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/templates/music/simple-email-capture-page/Simple Email Capture/Simple Email Capture/leadpages-template/.idea/vcs.xml" afterPath="$PROJECT_DIR$/music/templates/music/simple-email-capture-page/Simple Email Capture/Simple Email Capture/leadpages-template/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/templates/music/simple-email-capture-page/Simple Email Capture/Simple Email Capture/leadpages-template/.idea/workspace.xml" afterPath="$PROJECT_DIR$/music/templates/music/simple-email-capture-page/Simple Email Capture/Simple Email Capture/leadpages-template/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/templates/music/simple-email-capture-page/Simple Email Capture/Simple Email Capture/leadpages-template/css/style.css" afterPath="$PROJECT_DIR$/music/templates/music/simple-email-capture-page/Simple Email Capture/Simple Email Capture/leadpages-template/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/templates/music/simple-email-capture-page/Simple Email Capture/Simple Email Capture/leadpages-template/index.html" afterPath="$PROJECT_DIR$/music/templates/music/simple-email-capture-page/Simple Email Capture/Simple Email Capture/leadpages-template/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/templates/music/simple-email-capture-page/Simple Email Capture/Simple Email Capture/leadpages-template/js/html5shiv.js" afterPath="$PROJECT_DIR$/music/templates/music/simple-email-capture-page/Simple Email Capture/Simple Email Capture/leadpages-template/js/html5shiv.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/templates/music/simple-email-capture-page/Simple Email Capture/Simple Email Capture/leadpages-template/js/jquery.min.js" afterPath="$PROJECT_DIR$/music/templates/music/simple-email-capture-page/Simple Email Capture/Simple Email Capture/leadpages-template/js/jquery.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/templates/music/simple-email-capture-page/Simple Email Capture/Simple Email Capture/leadpages-template/js/scripts.js" afterPath="$PROJECT_DIR$/music/templates/music/simple-email-capture-page/Simple Email Capture/Simple Email Capture/leadpages-template/js/scripts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/templates/music/simple-email-capture-page/Simple Email Capture/Simple Email Capture/leadpages-template/meta/form.html" afterPath="$PROJECT_DIR$/music/templates/music/simple-email-capture-page/Simple Email Capture/Simple Email Capture/leadpages-template/meta/form.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/templates/music/simple-email-capture-page/Simple Email Capture/Simple Email Capture/leadpages-template/meta/template.json" afterPath="$PROJECT_DIR$/music/templates/music/simple-email-capture-page/Simple Email Capture/Simple Email Capture/leadpages-template/meta/template.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/templates/music/song_classification.html" afterPath="$PROJECT_DIR$/music/templates/music/song_classification.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/templates/music/thank_you.html" afterPath="$PROJECT_DIR$/music/templates/music/thank_you.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/tests.py" afterPath="$PROJECT_DIR$/music/tests.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/urls.py" afterPath="$PROJECT_DIR$/music/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/views.py" afterPath="$PROJECT_DIR$/music/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music_emotion_collector/__init__.py" afterPath="$PROJECT_DIR$/music_emotion_collector/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music_emotion_collector/settings.py" afterPath="$PROJECT_DIR$/music_emotion_collector/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music_emotion_collector/urls.py" afterPath="$PROJECT_DIR$/music_emotion_collector/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music_emotion_collector/wsgi.py" afterPath="$PROJECT_DIR$/music_emotion_collector/wsgi.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requirements.txt.save" afterPath="$PROJECT_DIR$/requirements.txt.save" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/css/base.css" afterPath="$PROJECT_DIR$/static/admin/css/base.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/css/changelists.css" afterPath="$PROJECT_DIR$/static/admin/css/changelists.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/css/dashboard.css" afterPath="$PROJECT_DIR$/static/admin/css/dashboard.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/css/fonts.css" afterPath="$PROJECT_DIR$/static/admin/css/fonts.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/css/forms.css" afterPath="$PROJECT_DIR$/static/admin/css/forms.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/css/login.css" afterPath="$PROJECT_DIR$/static/admin/css/login.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/css/rtl.css" afterPath="$PROJECT_DIR$/static/admin/css/rtl.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/css/widgets.css" afterPath="$PROJECT_DIR$/static/admin/css/widgets.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/fonts/LICENSE.txt" afterPath="$PROJECT_DIR$/static/admin/fonts/LICENSE.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/fonts/README.txt" afterPath="$PROJECT_DIR$/static/admin/fonts/README.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/img/LICENSE" afterPath="$PROJECT_DIR$/static/admin/img/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/img/README.txt" afterPath="$PROJECT_DIR$/static/admin/img/README.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/img/calendar-icons.svg" afterPath="$PROJECT_DIR$/static/admin/img/calendar-icons.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/img/gis/move_vertex_off.svg" afterPath="$PROJECT_DIR$/static/admin/img/gis/move_vertex_off.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/img/gis/move_vertex_on.svg" afterPath="$PROJECT_DIR$/static/admin/img/gis/move_vertex_on.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/img/icon-addlink.svg" afterPath="$PROJECT_DIR$/static/admin/img/icon-addlink.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/img/icon-alert.svg" afterPath="$PROJECT_DIR$/static/admin/img/icon-alert.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/img/icon-calendar.svg" afterPath="$PROJECT_DIR$/static/admin/img/icon-calendar.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/img/icon-changelink.svg" afterPath="$PROJECT_DIR$/static/admin/img/icon-changelink.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/img/icon-clock.svg" afterPath="$PROJECT_DIR$/static/admin/img/icon-clock.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/img/icon-deletelink.svg" afterPath="$PROJECT_DIR$/static/admin/img/icon-deletelink.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/img/icon-no.svg" afterPath="$PROJECT_DIR$/static/admin/img/icon-no.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/img/icon-unknown-alt.svg" afterPath="$PROJECT_DIR$/static/admin/img/icon-unknown-alt.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/img/icon-unknown.svg" afterPath="$PROJECT_DIR$/static/admin/img/icon-unknown.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/img/icon-yes.svg" afterPath="$PROJECT_DIR$/static/admin/img/icon-yes.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/img/inline-delete.svg" afterPath="$PROJECT_DIR$/static/admin/img/inline-delete.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/img/search.svg" afterPath="$PROJECT_DIR$/static/admin/img/search.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/img/selector-icons.svg" afterPath="$PROJECT_DIR$/static/admin/img/selector-icons.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/img/sorting-icons.svg" afterPath="$PROJECT_DIR$/static/admin/img/sorting-icons.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/img/tooltag-add.svg" afterPath="$PROJECT_DIR$/static/admin/img/tooltag-add.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/img/tooltag-arrowright.svg" afterPath="$PROJECT_DIR$/static/admin/img/tooltag-arrowright.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/js/SelectBox.js" afterPath="$PROJECT_DIR$/static/admin/js/SelectBox.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/js/SelectFilter2.js" afterPath="$PROJECT_DIR$/static/admin/js/SelectFilter2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/js/actions.js" afterPath="$PROJECT_DIR$/static/admin/js/actions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/js/actions.min.js" afterPath="$PROJECT_DIR$/static/admin/js/actions.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/js/admin/DateTimeShortcuts.js" afterPath="$PROJECT_DIR$/static/admin/js/admin/DateTimeShortcuts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/js/admin/RelatedObjectLookups.js" afterPath="$PROJECT_DIR$/static/admin/js/admin/RelatedObjectLookups.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/js/calendar.js" afterPath="$PROJECT_DIR$/static/admin/js/calendar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/js/cancel.js" afterPath="$PROJECT_DIR$/static/admin/js/cancel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/js/change_form.js" afterPath="$PROJECT_DIR$/static/admin/js/change_form.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/js/collapse.js" afterPath="$PROJECT_DIR$/static/admin/js/collapse.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/js/collapse.min.js" afterPath="$PROJECT_DIR$/static/admin/js/collapse.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/js/core.js" afterPath="$PROJECT_DIR$/static/admin/js/core.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/js/inlines.js" afterPath="$PROJECT_DIR$/static/admin/js/inlines.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/js/inlines.min.js" afterPath="$PROJECT_DIR$/static/admin/js/inlines.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/js/jquery.init.js" afterPath="$PROJECT_DIR$/static/admin/js/jquery.init.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/js/popup_response.js" afterPath="$PROJECT_DIR$/static/admin/js/popup_response.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/js/prepopulate.js" afterPath="$PROJECT_DIR$/static/admin/js/prepopulate.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/js/prepopulate.min.js" afterPath="$PROJECT_DIR$/static/admin/js/prepopulate.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/js/prepopulate_init.js" afterPath="$PROJECT_DIR$/static/admin/js/prepopulate_init.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/js/timeparse.js" afterPath="$PROJECT_DIR$/static/admin/js/timeparse.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/js/urlify.js" afterPath="$PROJECT_DIR$/static/admin/js/urlify.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/js/vendor/jquery/LICENSE-JQUERY.txt" afterPath="$PROJECT_DIR$/static/admin/js/vendor/jquery/LICENSE-JQUERY.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/js/vendor/jquery/jquery.js" afterPath="$PROJECT_DIR$/static/admin/js/vendor/jquery/jquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/js/vendor/jquery/jquery.min.js" afterPath="$PROJECT_DIR$/static/admin/js/vendor/jquery/jquery.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/LICENSE-XREGEXP.txt" afterPath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/LICENSE-XREGEXP.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/xregexp.js" afterPath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/xregexp.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/xregexp.min.js" afterPath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/xregexp.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/animate.css" afterPath="$PROJECT_DIR$/static/animate.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/audiofield/flashblock/basic.html" afterPath="$PROJECT_DIR$/static/audiofield/flashblock/basic.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/audiofield/flashblock/flashblock.css" afterPath="$PROJECT_DIR$/static/audiofield/flashblock/flashblock.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/audiofield/flashblock/index.html" afterPath="$PROJECT_DIR$/static/audiofield/flashblock/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/audiofield/flashblock/method1/flashblock.css" afterPath="$PROJECT_DIR$/static/audiofield/flashblock/method1/flashblock.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/audiofield/flashblock/method1/flashblock.js" afterPath="$PROJECT_DIR$/static/audiofield/flashblock/method1/flashblock.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/audiofield/flashblock/method1/index.html" afterPath="$PROJECT_DIR$/static/audiofield/flashblock/method1/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/audiofield/page-player/basic.html" afterPath="$PROJECT_DIR$/static/audiofield/page-player/basic.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/audiofield/page-player/css/demo.css" afterPath="$PROJECT_DIR$/static/audiofield/page-player/css/demo.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/audiofield/page-player/css/optional-annotations.css" afterPath="$PROJECT_DIR$/static/audiofield/page-player/css/optional-annotations.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/audiofield/page-player/css/optional-themes.css" afterPath="$PROJECT_DIR$/static/audiofield/page-player/css/optional-themes.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/audiofield/page-player/css/page-player.css" afterPath="$PROJECT_DIR$/static/audiofield/page-player/css/page-player.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/audiofield/page-player/script/optional-page-player-metadata.js" afterPath="$PROJECT_DIR$/static/audiofield/page-player/script/optional-page-player-metadata.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/audiofield/page-player/script/page-player.js" afterPath="$PROJECT_DIR$/static/audiofield/page-player/script/page-player.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/audiofield/script/soundmanager2-jsmin.js" afterPath="$PROJECT_DIR$/static/audiofield/script/soundmanager2-jsmin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/audiofield/script/soundmanager2-nodebug-jsmin.js" afterPath="$PROJECT_DIR$/static/audiofield/script/soundmanager2-nodebug-jsmin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/audiofield/script/soundmanager2-nodebug.js" afterPath="$PROJECT_DIR$/static/audiofield/script/soundmanager2-nodebug.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/audiofield/script/soundmanager2.js" afterPath="$PROJECT_DIR$/static/audiofield/script/soundmanager2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/blue.monday/css/jplayer.blue.monday.css" afterPath="$PROJECT_DIR$/static/blue.monday/css/jplayer.blue.monday.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/blue.monday/mustache/jplayer.blue.monday.audio.playlist.html" afterPath="$PROJECT_DIR$/static/blue.monday/mustache/jplayer.blue.monday.audio.playlist.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/blue.monday/mustache/jplayer.blue.monday.audio.single.html" afterPath="$PROJECT_DIR$/static/blue.monday/mustache/jplayer.blue.monday.audio.single.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/blue.monday/mustache/jplayer.blue.monday.audio.stream.html" afterPath="$PROJECT_DIR$/static/blue.monday/mustache/jplayer.blue.monday.audio.stream.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/blue.monday/mustache/jplayer.blue.monday.video.playlist.html" afterPath="$PROJECT_DIR$/static/blue.monday/mustache/jplayer.blue.monday.video.playlist.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/blue.monday/mustache/jplayer.blue.monday.video.single.html" afterPath="$PROJECT_DIR$/static/blue.monday/mustache/jplayer.blue.monday.video.single.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/bootstrap.css" afterPath="$PROJECT_DIR$/static/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/bootstrap.js" afterPath="$PROJECT_DIR$/static/bootstrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/component.css" afterPath="$PROJECT_DIR$/static/component.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/animate.css" afterPath="$PROJECT_DIR$/static/css/animate.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/blue.monday/css/jplayer.blue.monday.css" afterPath="$PROJECT_DIR$/static/css/blue.monday/css/jplayer.blue.monday.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/blue.monday/mustache/jplayer.blue.monday.audio.playlist.html" afterPath="$PROJECT_DIR$/static/css/blue.monday/mustache/jplayer.blue.monday.audio.playlist.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/blue.monday/mustache/jplayer.blue.monday.audio.single.html" afterPath="$PROJECT_DIR$/static/css/blue.monday/mustache/jplayer.blue.monday.audio.single.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/blue.monday/mustache/jplayer.blue.monday.audio.stream.html" afterPath="$PROJECT_DIR$/static/css/blue.monday/mustache/jplayer.blue.monday.audio.stream.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/blue.monday/mustache/jplayer.blue.monday.video.playlist.html" afterPath="$PROJECT_DIR$/static/css/blue.monday/mustache/jplayer.blue.monday.video.playlist.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/blue.monday/mustache/jplayer.blue.monday.video.single.html" afterPath="$PROJECT_DIR$/static/css/blue.monday/mustache/jplayer.blue.monday.video.single.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/bootstrap.css" afterPath="$PROJECT_DIR$/static/css/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/component.css" afterPath="$PROJECT_DIR$/static/css/component.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/galleryeffect.css" afterPath="$PROJECT_DIR$/static/css/galleryeffect.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/idangerous.swiper.css" afterPath="$PROJECT_DIR$/static/css/idangerous.swiper.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/style.css" afterPath="$PROJECT_DIR$/static/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/weed.css" afterPath="$PROJECT_DIR$/static/css/weed.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/custom.js" afterPath="$PROJECT_DIR$/static/custom.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/easing.js" afterPath="$PROJECT_DIR$/static/easing.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/galleryeffect.css" afterPath="$PROJECT_DIR$/static/galleryeffect.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/idangerous.swiper.css" afterPath="$PROJECT_DIR$/static/idangerous.swiper.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/idangerous.swiper.min.js" afterPath="$PROJECT_DIR$/static/idangerous.swiper.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/jquery-2.1.4.min.js" afterPath="$PROJECT_DIR$/static/jquery-2.1.4.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/jquery.jplayer.min.js" afterPath="$PROJECT_DIR$/static/jquery.jplayer.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/bootstrap.js" afterPath="$PROJECT_DIR$/static/js/bootstrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/custom.js" afterPath="$PROJECT_DIR$/static/js/custom.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/easing.js" afterPath="$PROJECT_DIR$/static/js/easing.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/idangerous.swiper.min.js" afterPath="$PROJECT_DIR$/static/js/idangerous.swiper.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/jquery-2.1.4.min.js" afterPath="$PROJECT_DIR$/static/js/jquery-2.1.4.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/jquery.jplayer.min.js" afterPath="$PROJECT_DIR$/static/js/jquery.jplayer.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/masonry.pkgd.min.js" afterPath="$PROJECT_DIR$/static/js/masonry.pkgd.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/move-top.js" afterPath="$PROJECT_DIR$/static/js/move-top.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/responsiveslides.min.js" afterPath="$PROJECT_DIR$/static/js/responsiveslides.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/underscore-min.js" afterPath="$PROJECT_DIR$/static/js/underscore-min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/masonry.pkgd.min.js" afterPath="$PROJECT_DIR$/static/masonry.pkgd.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/move-top.js" afterPath="$PROJECT_DIR$/static/move-top.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/responsiveslides.min.js" afterPath="$PROJECT_DIR$/static/responsiveslides.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/style.css" afterPath="$PROJECT_DIR$/static/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/weed.css" afterPath="$PROJECT_DIR$/static/weed.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/__init__.py" afterPath="$PROJECT_DIR$/utils/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/services.py" afterPath="$PROJECT_DIR$/utils/services.py" />
     </list>
     <ignored path="music_emotion_collector.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -332,7 +25,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="100">
@@ -345,7 +38,7 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
+            <state relative-caret-position="52840">
               <caret line="2642" column="23" lean-forward="false" selection-start-line="2642" selection-start-column="23" selection-end-line="2642" selection-end-column="23" />
               <folding />
             </state>
@@ -355,7 +48,7 @@
       <file leaf-file-name="explore.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/music/templates/music/explore.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
+            <state relative-caret-position="520">
               <caret line="26" column="48" lean-forward="false" selection-start-line="26" selection-start-column="48" selection-end-line="31" selection-end-column="28" />
               <folding />
             </state>
@@ -365,11 +58,33 @@
       <file leaf-file-name="get_pending_songs_pks.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/management/commands/get_pending_songs_pks.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="700">
-              <caret line="35" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+            <state relative-caret-position="600">
+              <caret line="30" column="11" lean-forward="false" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
               <folding>
                 <element signature="e#24#53#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="knn_1_all_samples_mode.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/classifier/knn_1_all_samples_mode.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="635">
+              <caret line="32" column="35" lean-forward="true" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+              <folding>
+                <element signature="e#276#305#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="knn_3_feature_means.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/classifier/knn_3_feature_means.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -387,7 +102,7 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/music_emotion_collector/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
+            <state relative-caret-position="2180">
               <caret line="110" column="42" lean-forward="false" selection-start-line="110" selection-start-column="42" selection-end-line="110" selection-end-column="42" />
               <folding />
             </state>
@@ -397,21 +112,20 @@
       <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/music/templates/music/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-60">
+            <state relative-caret-position="360">
               <caret line="18" column="4" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/music/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-985">
-              <caret line="243" column="15" lean-forward="false" selection-start-line="243" selection-start-column="15" selection-end-line="243" selection-end-column="15" />
+            <state relative-caret-position="-640">
+              <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
               <folding>
                 <element signature="e#24#59#0" expanded="true" />
-                <element signature="e#303#1597#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -509,8 +223,8 @@
         <option value="$PROJECT_DIR$/music/models.py" />
         <option value="$PROJECT_DIR$/music_emotion_collector/settings.py" />
         <option value="$PROJECT_DIR$/management/commands/get_pending_songs_pks.py" />
-        <option value="$PROJECT_DIR$/music/views.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/music/views.py" />
       </list>
     </option>
   </component>
@@ -521,10 +235,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="64" />
-    <option name="y" value="-11" />
-    <option name="width" value="1857" />
-    <option name="height" value="1092" />
+    <option name="x" value="65" />
+    <option name="y" value="-4" />
+    <option name="width" value="1855" />
+    <option name="height" value="1084" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -550,6 +264,34 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="music_emotion_collector" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="music_emotion_collector" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="music_emotion_collector" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="music" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="music_emotion_collector" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="music_emotion_collector" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classifier" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -861,26 +603,27 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <editor active="true" />
     <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33261454" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33261454" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925585" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925585" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -918,9 +661,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17340">
           <caret line="887" column="4" lean-forward="false" selection-start-line="887" selection-start-column="4" selection-end-line="887" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#10#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -928,17 +668,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="23" />
-          <folding>
-            <element signature="e#24#74#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classifier/knn_3_feature_means.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -946,7 +675,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -954,7 +682,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="27" column="51" lean-forward="false" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -962,17 +689,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15060">
           <caret line="772" column="4" lean-forward="false" selection-start-line="772" selection-start-column="4" selection-end-line="772" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classifier/knn_1_all_samples_mode.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="30" column="47" lean-forward="false" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
-          <folding>
-            <element signature="e#276#305#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -980,7 +696,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -988,47 +703,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="510" column="74" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="667" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/music/templates/song_classification.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/music/templates/participant_data.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/music/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="11" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/music/templates/thank_you.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/music/templates/song_classification.html" />
+    <entry file="file://$PROJECT_DIR$/music/templates/participant_data.html" />
+    <entry file="file://$PROJECT_DIR$/music/templates/home.html" />
+    <entry file="file://$PROJECT_DIR$/music/templates/thank_you.html" />
     <entry file="file://$PROJECT_DIR$/static/css/weed.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1036,7 +721,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1044,9 +728,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="445">
           <caret line="57" column="26" lean-forward="false" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
-          <folding>
-            <element signature="n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1054,11 +735,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="20" column="47" lean-forward="false" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1066,7 +742,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="338">
           <caret line="2469" column="38" lean-forward="false" selection-start-line="2469" selection-start-column="38" selection-end-line="2469" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1182,7 +857,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/music/templates/music/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-60">
+        <state relative-caret-position="360">
           <caret line="18" column="4" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
           <folding />
         </state>
@@ -1190,19 +865,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
+        <state relative-caret-position="52840">
           <caret line="2642" column="23" lean-forward="false" selection-start-line="2642" selection-start-column="23" selection-end-line="2642" selection-end-column="23" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/management/commands/get_pending_songs_pks.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding>
-            <element signature="e#24#53#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1216,27 +881,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/music/templates/music/explore.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
+        <state relative-caret-position="520">
           <caret line="26" column="48" lean-forward="false" selection-start-line="26" selection-start-column="48" selection-end-line="31" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/music/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-985">
-          <caret line="243" column="15" lean-forward="false" selection-start-line="243" selection-start-column="15" selection-end-line="243" selection-end-column="15" />
-          <folding>
-            <element signature="e#24#59#0" expanded="true" />
-            <element signature="e#303#1597#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/music_emotion_collector/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="110" column="42" lean-forward="false" selection-start-line="110" selection-start-column="42" selection-end-line="110" selection-end-column="42" />
           <folding />
         </state>
       </provider>
@@ -1246,6 +892,52 @@
         <state relative-caret-position="100">
           <caret line="5" column="9" lean-forward="false" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/music_emotion_collector/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2180">
+          <caret line="110" column="42" lean-forward="false" selection-start-line="110" selection-start-column="42" selection-end-line="110" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/management/commands/get_pending_songs_pks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="30" column="11" lean-forward="false" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
+          <folding>
+            <element signature="e#24#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classifier/knn_1_all_samples_mode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="635">
+          <caret line="32" column="35" lean-forward="true" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+          <folding>
+            <element signature="e#276#305#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classifier/knn_3_feature_means.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/music/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-640">
+          <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+          <folding>
+            <element signature="e#24#59#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
