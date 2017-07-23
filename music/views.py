@@ -8,7 +8,7 @@ from django.shortcuts import render
 from django.conf import settings
 import random
 # Create your views here.
-pending_pks = [24, 369, 482]
+pending_pks = [24]
 
 
 def pick_random_song_lowest_classifications():
