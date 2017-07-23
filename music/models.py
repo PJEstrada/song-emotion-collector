@@ -72,3 +72,6 @@ class Song(models.Model):
     @property
     def key(self):
         return self.s3_path.split(settings.S3_URL)[1]
+
+
+
